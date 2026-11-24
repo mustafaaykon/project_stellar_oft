@@ -1,0 +1,1327 @@
+{
+  "started_at": "2026-11-23T12:06:17.081Z",
+  "network": "testnet",
+  "chains": {
+    "A": {
+      "chain": "A",
+      "name": "Chain A (eid 30101)",
+      "eid": 30101,
+      "asset_code": "OFTA",
+      "issuer": "GDLHWQDU6A2LB7AGO3RC3CRF5AGBYLSCLZLQDDM73PKJCWVIHFM4DIOQ",
+      "contracts": {
+        "token": "CAQH4PKFMX6WFP2GHUU2Y66YWNZX66R22VMVO256U4CPIVCNUQFUYXIL",
+        "sac_manager": "CCIQWZVAD6CVJNX4D4HHOUGLCPONPOFWKYBOJURDMFR62HSKWKGZKN33",
+        "endpoint": "CCAB44L3FYXLQADQ7ASKGLUCBDE6TDTKP4H2XI32NCJJC6SDVIYKA6MP",
+        "oft": "CAQ7WUFIWDCJ6E62FZWF46NGPZ2T36MUQO6BL3TRIWLGQII4PRX7KCS6"
+      },
+      "links": {
+        "token": "https://stellar.expert/explorer/testnet/contract/CAQH4PKFMX6WFP2GHUU2Y66YWNZX66R22VMVO256U4CPIVCNUQFUYXIL",
+        "sac_manager": "https://stellar.expert/explorer/testnet/contract/CCIQWZVAD6CVJNX4D4HHOUGLCPONPOFWKYBOJURDMFR62HSKWKGZKN33",
+        "endpoint": "https://stellar.expert/explorer/testnet/contract/CCAB44L3FYXLQADQ7ASKGLUCBDE6TDTKP4H2XI32NCJJC6SDVIYKA6MP",
+        "oft": "https://stellar.expert/explorer/testnet/contract/CAQ7WUFIWDCJ6E62FZWF46NGPZ2T36MUQO6BL3TRIWLGQII4PRX7KCS6",
+        "owner": "https://stellar.expert/explorer/testnet/account/GCVQDAF4YXXPRSG7YXMTQWVB3F7CK7RGWIBPF2Q55V55657L6I5DC4ZZ",
+        "issuer": "https://stellar.expert/explorer/testnet/account/GDLHWQDU6A2LB7AGO3RC3CRF5AGBYLSCLZLQDDM73PKJCWVIHFM4DIOQ"
+      }
+    },
+    "B": {
+      "chain": "B",
+      "name": "Chain B (eid 30102)",
+      "eid": 30102,
+      "asset_code": "OFTB",
+      "issuer": "GA32KW3W6CRXTCYQIMWIFSCM6AUZ3F5K37IAU77WZ6NWYEQNDM4CRWAJ",
+      "contracts": {
+        "token": "CD2EGFCSVKMOFO4LKBVXM2FD2EEC7YSR2PGPIEEKXD76LN2EFTEVMNJJ",
+        "sac_manager": "CA5SSUXHTMZYD3KFR2Y37PO3EUH6OY7PB6HR7IW3J5EFQMIUGX5GLISH",
+        "endpoint": "CDB6WBQLUCOI3U2R5BU34MSTMYIPBY7JQYSCC76RQHHKQJBD3BLSGVEN",
+        "oft": "CDUU6G66UMGY3JVTRD4KWMI7WMBTTDYKKHLMLZAMAZC5OAH577GLDLWR"
+      },
+      "links": {
+        "token": "https://stellar.expert/explorer/testnet/contract/CD2EGFCSVKMOFO4LKBVXM2FD2EEC7YSR2PGPIEEKXD76LN2EFTEVMNJJ",
+        "sac_manager": "https://stellar.expert/explorer/testnet/contract/CA5SSUXHTMZYD3KFR2Y37PO3EUH6OY7PB6HR7IW3J5EFQMIUGX5GLISH",
+        "endpoint": "https://stellar.expert/explorer/testnet/contract/CDB6WBQLUCOI3U2R5BU34MSTMYIPBY7JQYSCC76RQHHKQJBD3BLSGVEN",
+        "oft": "https://stellar.expert/explorer/testnet/contract/CDUU6G66UMGY3JVTRD4KWMI7WMBTTDYKKHLMLZAMAZC5OAH577GLDLWR",
+        "owner": "https://stellar.expert/explorer/testnet/account/GCVQDAF4YXXPRSG7YXMTQWVB3F7CK7RGWIBPF2Q55V55657L6I5DC4ZZ",
+        "issuer": "https://stellar.expert/explorer/testnet/account/GA32KW3W6CRXTCYQIMWIFSCM6AUZ3F5K37IAU77WZ6NWYEQNDM4CRWAJ"
+      }
+    }
+  },
+  "wallets": [
+    {
+      "index": 1,
+      "label": "W01",
+      "publicKey": "GCSTTLRBIP6WYDZOZUE5SABHTQQMPI6XN3D4AP573OHIXCGGJILZYZRD",
+      "link": "https://stellar.expert/explorer/testnet/account/GCSTTLRBIP6WYDZOZUE5SABHTQQMPI6XN3D4AP573OHIXCGGJILZYZRD"
+    },
+    {
+      "index": 2,
+      "label": "W02",
+      "publicKey": "GDDJYEVJT4SF5EHZHMQN647MEKRCCC3YZH577M4OVQXFFLQVFIT5JGST",
+      "link": "https://stellar.expert/explorer/testnet/account/GDDJYEVJT4SF5EHZHMQN647MEKRCCC3YZH577M4OVQXFFLQVFIT5JGST"
+    },
+    {
+      "index": 3,
+      "label": "W03",
+      "publicKey": "GCA3LFPNPG3I5V5P3LNTKAPPJKFMLNOKBKL4BRSXKCPEEZSDDRHQYVDR",
+      "link": "https://stellar.expert/explorer/testnet/account/GCA3LFPNPG3I5V5P3LNTKAPPJKFMLNOKBKL4BRSXKCPEEZSDDRHQYVDR"
+    },
+    {
+      "index": 4,
+      "label": "W04",
+      "publicKey": "GD3XOIJU2MREIYF4EVZRZNMAOSF7B33TDGZ656RB72V5PGQUZJBSGLEN",
+      "link": "https://stellar.expert/explorer/testnet/account/GD3XOIJU2MREIYF4EVZRZNMAOSF7B33TDGZ656RB72V5PGQUZJBSGLEN"
+    },
+    {
+      "index": 5,
+      "label": "W05",
+      "publicKey": "GDQO7M5YBC3NINBI3AZTJ5IQCSP4GYVFVEN5Z44AC3LUNMPQUFJXR4JJ",
+      "link": "https://stellar.expert/explorer/testnet/account/GDQO7M5YBC3NINBI3AZTJ5IQCSP4GYVFVEN5Z44AC3LUNMPQUFJXR4JJ"
+    },
+    {
+      "index": 6,
+      "label": "W06",
+      "publicKey": "GBV23JG7SYUL7QBC7KXSOLYW4OHILW6UNGDZ5VXQGOUYENC3DVUBHHZX",
+      "link": "https://stellar.expert/explorer/testnet/account/GBV23JG7SYUL7QBC7KXSOLYW4OHILW6UNGDZ5VXQGOUYENC3DVUBHHZX"
+    },
+    {
+      "index": 7,
+      "label": "W07",
+      "publicKey": "GASXCHWZER2OLDO2NWBMJNSI7ZHUBXOCL47Y3JUIW47PSLVGG6YBJAFI",
+      "link": "https://stellar.expert/explorer/testnet/account/GASXCHWZER2OLDO2NWBMJNSI7ZHUBXOCL47Y3JUIW47PSLVGG6YBJAFI"
+    },
+    {
+      "index": 8,
+      "label": "W08",
+      "publicKey": "GCTLM5NZHIT2X4JLXLBKYK7PX5UPM7AQANX2RGOIJ2HZEO2KOG72A6C6",
+      "link": "https://stellar.expert/explorer/testnet/account/GCTLM5NZHIT2X4JLXLBKYK7PX5UPM7AQANX2RGOIJ2HZEO2KOG72A6C6"
+    },
+    {
+      "index": 9,
+      "label": "W09",
+      "publicKey": "GDETKFSZHY6K6FS64HV2OVKJI22KFU6LNDIHTWS3CYPKMLWLXVYLSYTP",
+      "link": "https://stellar.expert/explorer/testnet/account/GDETKFSZHY6K6FS64HV2OVKJI22KFU6LNDIHTWS3CYPKMLWLXVYLSYTP"
+    },
+    {
+      "index": 10,
+      "label": "W10",
+      "publicKey": "GBL4DXJUVKPEQDIXYC2YZZUGEW4MOWKTSICOUAKEI6DVUTEAL2H2UWMY",
+      "link": "https://stellar.expert/explorer/testnet/account/GBL4DXJUVKPEQDIXYC2YZZUGEW4MOWKTSICOUAKEI6DVUTEAL2H2UWMY"
+    },
+    {
+      "index": 11,
+      "label": "W11",
+      "publicKey": "GC5GK7O54NVXNDGMCRBJAWHDBDSCRQPWOG5BLH5ZY2D2IW6IKL2MLHWG",
+      "link": "https://stellar.expert/explorer/testnet/account/GC5GK7O54NVXNDGMCRBJAWHDBDSCRQPWOG5BLH5ZY2D2IW6IKL2MLHWG"
+    },
+    {
+      "index": 12,
+      "label": "W12",
+      "publicKey": "GB3BQ5PRQB222AWH7DR2VX6JIJSCQTROWITCCU6XXBCQWMS43KFJPPUU",
+      "link": "https://stellar.expert/explorer/testnet/account/GB3BQ5PRQB222AWH7DR2VX6JIJSCQTROWITCCU6XXBCQWMS43KFJPPUU"
+    },
+    {
+      "index": 13,
+      "label": "W13",
+      "publicKey": "GB3CNYZOP4FIJVOTWK5RASWJ5A72ODRE3EHYR7COXYYRCPXI3S5HU4A4",
+      "link": "https://stellar.expert/explorer/testnet/account/GB3CNYZOP4FIJVOTWK5RASWJ5A72ODRE3EHYR7COXYYRCPXI3S5HU4A4"
+    },
+    {
+      "index": 14,
+      "label": "W14",
+      "publicKey": "GC3P2U5VOJYCEFQNHGDRQGOESTNJJKG6BBOEAZE2HZMUP5CT7QF3XHBQ",
+      "link": "https://stellar.expert/explorer/testnet/account/GC3P2U5VOJYCEFQNHGDRQGOESTNJJKG6BBOEAZE2HZMUP5CT7QF3XHBQ"
+    },
+    {
+      "index": 15,
+      "label": "W15",
+      "publicKey": "GCR4HV2YTCXOZ7WOT6OSSV4HWG62AJD74HFPBKAQEV6OOUTLBWHSEYRA",
+      "link": "https://stellar.expert/explorer/testnet/account/GCR4HV2YTCXOZ7WOT6OSSV4HWG62AJD74HFPBKAQEV6OOUTLBWHSEYRA"
+    },
+    {
+      "index": 16,
+      "label": "W16",
+      "publicKey": "GBC5GA4NX4QVWY6M2GAK7LRR6D4UBD4D3RCXORW2BSLGQTA3TTIPQUGS",
+      "link": "https://stellar.expert/explorer/testnet/account/GBC5GA4NX4QVWY6M2GAK7LRR6D4UBD4D3RCXORW2BSLGQTA3TTIPQUGS"
+    },
+    {
+      "index": 17,
+      "label": "W17",
+      "publicKey": "GANHVN7ND5S66UCWRP47AA3BVKZSIEJAMCJMFCZ5V7I5QZLPSTKJRBYS",
+      "link": "https://stellar.expert/explorer/testnet/account/GANHVN7ND5S66UCWRP47AA3BVKZSIEJAMCJMFCZ5V7I5QZLPSTKJRBYS"
+    },
+    {
+      "index": 18,
+      "label": "W18",
+      "publicKey": "GCGNZER7DZQJKHQ3L4T567SLIZYCZ2UTYLJJFW4KF5BNGMU443LXFT32",
+      "link": "https://stellar.expert/explorer/testnet/account/GCGNZER7DZQJKHQ3L4T567SLIZYCZ2UTYLJJFW4KF5BNGMU443LXFT32"
+    },
+    {
+      "index": 19,
+      "label": "W19",
+      "publicKey": "GB5V5TCE6FXUNZKBWSOSCG3YLANAGG45QK6LVZ5AGCUAGGVSC3MG3PYV",
+      "link": "https://stellar.expert/explorer/testnet/account/GB5V5TCE6FXUNZKBWSOSCG3YLANAGG45QK6LVZ5AGCUAGGVSC3MG3PYV"
+    },
+    {
+      "index": 20,
+      "label": "W20",
+      "publicKey": "GA2RZHQFQEZK4NSNWUN4VEXVZZN4VX4WAUJA5NQAQRAYNURVCAWFE6A7",
+      "link": "https://stellar.expert/explorer/testnet/account/GA2RZHQFQEZK4NSNWUN4VEXVZZN4VX4WAUJA5NQAQRAYNURVCAWFE6A7"
+    }
+  ],
+  "phases": [
+    {
+      "phase": "fund",
+      "note": "20 wallets funded by friendbot"
+    },
+    {
+      "phase": "trust",
+      "note": "trustlines for OFTA on all 20; OFTB on 19 (W20 left without one to show the retry path)"
+    },
+    {
+      "phase": "seed",
+      "note": "100 OFTA minted to each wallet by the owner (MINTER) through sac_manager"
+    },
+    {
+      "phase": "balances:after-seed",
+      "label": "after-seed",
+      "rows": [
+        {
+          "a": "100.0000000",
+          "b": "0.0000000"
+        },
+        {
+          "a": "100.0000000",
+          "b": "0.0000000"
+        },
+        {
+          "a": "194.0000000",
+          "b": "0.0000000"
+        },
+        {
+          "a": "193.5000000",
+          "b": "0.0000000"
+        },
+        {
+          "a": "193.0000000",
+          "b": "0.0000000"
+        },
+        {
+          "a": "192.5000000",
+          "b": "0.0000000"
+        },
+        {
+          "a": "192.0000000",
+          "b": "0.0000000"
+        },
+        {
+          "a": "191.5000000",
+          "b": "0.0000000"
+        },
+        {
+          "a": "100.0000000",
+          "b": "0.0000000"
+        },
+        {
+          "a": "100.0000000",
+          "b": "0.0000000"
+        },
+        {
+          "a": "100.0000000",
+          "b": "0.0000000"
+        },
+        {
+          "a": "100.0000000",
+          "b": "0.0000000"
+        },
+        {
+          "a": "100.0000000",
+          "b": "0.0000000"
+        },
+        {
+          "a": "100.0000000",
+          "b": "0.0000000"
+        },
+        {
+          "a": "100.0000000",
+          "b": "0.0000000"
+        },
+        {
+          "a": "100.0000000",
+          "b": "0.0000000"
+        },
+        {
+          "a": "100.0000000",
+          "b": "0.0000000"
+        },
+        {
+          "a": "100.0000000",
+          "b": "0.0000000"
+        },
+        {
+          "a": "100.0000000",
+          "b": "0.0000000"
+        },
+        {
+          "a": "100.0000000",
+          "b": null
+        }
+      ],
+      "sumA": "2556.5000000",
+      "sumB": "0.0000000",
+      "total": "2556.5000000"
+    },
+    {
+      "phase": "round1-send",
+      "note": "20 sends A->B; each amount ends in 3 stroops of dust that stays with the sender"
+    },
+    {
+      "phase": "relay1",
+      "delivered": 25,
+      "failed": 1,
+      "note": "a failed receive leaves the packet pending on the endpoint"
+    },
+    {
+      "phase": "retry",
+      "delivered": 1,
+      "note": "the same packet, delivered once the trustline exists; nothing was re-sent"
+    },
+    {
+      "phase": "balances:after-round1",
+      "label": "after-round1",
+      "rows": [
+        {
+          "a": "95.0000000",
+          "b": "5.0000000"
+        },
+        {
+          "a": "94.5000000",
+          "b": "5.5000000"
+        },
+        {
+          "a": "188.0000000",
+          "b": "12.0000000"
+        },
+        {
+          "a": "187.0000000",
+          "b": "13.0000000"
+        },
+        {
+          "a": "186.0000000",
+          "b": "14.0000000"
+        },
+        {
+          "a": "185.0000000",
+          "b": "15.0000000"
+        },
+        {
+          "a": "184.0000000",
+          "b": "16.0000000"
+        },
+        {
+          "a": "183.0000000",
+          "b": "17.0000000"
+        },
+        {
+          "a": "91.0000000",
+          "b": "9.0000000"
+        },
+        {
+          "a": "90.5000000",
+          "b": "9.5000000"
+        },
+        {
+          "a": "90.0000000",
+          "b": "10.0000000"
+        },
+        {
+          "a": "89.5000000",
+          "b": "10.5000000"
+        },
+        {
+          "a": "89.0000000",
+          "b": "11.0000000"
+        },
+        {
+          "a": "88.5000000",
+          "b": "11.5000000"
+        },
+        {
+          "a": "88.0000000",
+          "b": "12.0000000"
+        },
+        {
+          "a": "87.5000000",
+          "b": "12.5000000"
+        },
+        {
+          "a": "87.0000000",
+          "b": "13.0000000"
+        },
+        {
+          "a": "86.5000000",
+          "b": "13.5000000"
+        },
+        {
+          "a": "86.0000000",
+          "b": "14.0000000"
+        },
+        {
+          "a": "85.5000000",
+          "b": "14.5000000"
+        }
+      ],
+      "sumA": "2361.5000000",
+      "sumB": "238.5000000",
+      "total": "2600.0000000"
+    },
+    {
+      "phase": "round2-send",
+      "note": "16 sends B->A with mixed recipients; W17 (dust) and W18 (slippage) rejected by the contract before any burn"
+    },
+    {
+      "phase": "relay2",
+      "delivered": 16,
+      "failed": 0
+    },
+    {
+      "phase": "balances:final",
+      "label": "final",
+      "rows": [
+        {
+          "a": "97.0000000",
+          "b": "3.0000000"
+        },
+        {
+          "a": "96.7500000",
+          "b": "3.2500000"
+        },
+        {
+          "a": "190.5000000",
+          "b": "9.5000000"
+        },
+        {
+          "a": "189.7500000",
+          "b": "10.2500000"
+        },
+        {
+          "a": "189.0000000",
+          "b": "11.0000000"
+        },
+        {
+          "a": "188.2500000",
+          "b": "11.7500000"
+        },
+        {
+          "a": "187.5000000",
+          "b": "12.5000000"
+        },
+        {
+          "a": "186.7500000",
+          "b": "13.2500000"
+        },
+        {
+          "a": "95.0000000",
+          "b": "5.0000000"
+        },
+        {
+          "a": "94.7500000",
+          "b": "5.2500000"
+        },
+        {
+          "a": "90.0000000",
+          "b": "5.5000000"
+        },
+        {
+          "a": "94.0000000",
+          "b": "5.7500000"
+        },
+        {
+          "a": "93.7500000",
+          "b": "6.0000000"
+        },
+        {
+          "a": "93.5000000",
+          "b": "6.2500000"
+        },
+        {
+          "a": "93.2500000",
+          "b": "6.5000000"
+        },
+        {
+          "a": "93.0000000",
+          "b": "6.7500000"
+        },
+        {
+          "a": "87.0000000",
+          "b": "13.0000000"
+        },
+        {
+          "a": "86.5000000",
+          "b": "13.5000000"
+        },
+        {
+          "a": "86.0000000",
+          "b": "14.0000000"
+        },
+        {
+          "a": "85.5000000",
+          "b": "14.5000000"
+        }
+      ],
+      "sumA": "2417.7500000",
+      "sumB": "176.5000000",
+      "total": "2594.2500000"
+    }
+  ],
+  "txs": [
+    {
+      "phase": "seed",
+      "wallet": 3,
+      "action": "mint 100 OFTA",
+      "hash": "7dbdf250449fbf44ac7241c7f7d6d09d0949d88b05572736d3c52405ca05d2d5",
+      "link": "https://stellar.expert/explorer/testnet/tx/7dbdf250449fbf44ac7241c7f7d6d09d0949d88b05572736d3c52405ca05d2d5"
+    },
+    {
+      "phase": "seed",
+      "wallet": 4,
+      "action": "mint 100 OFTA",
+      "hash": "9305f2284bdbbdb0543928e7ba49b84820de2410cae5ef15458a63077a7eee29",
+      "link": "https://stellar.expert/explorer/testnet/tx/9305f2284bdbbdb0543928e7ba49b84820de2410cae5ef15458a63077a7eee29"
+    },
+    {
+      "phase": "seed",
+      "wallet": 5,
+      "action": "mint 100 OFTA",
+      "hash": "65eac4e5c5db7196b30669bb59cc712abeb4a2ef3508ac96a3ec11a7bc3e5297",
+      "link": "https://stellar.expert/explorer/testnet/tx/65eac4e5c5db7196b30669bb59cc712abeb4a2ef3508ac96a3ec11a7bc3e5297"
+    },
+    {
+      "phase": "seed",
+      "wallet": 6,
+      "action": "mint 100 OFTA",
+      "hash": "d2e780aaf60dabdcb95684893a1a59b08ed1252513eff000c38ddb138cdad6c3",
+      "link": "https://stellar.expert/explorer/testnet/tx/d2e780aaf60dabdcb95684893a1a59b08ed1252513eff000c38ddb138cdad6c3"
+    },
+    {
+      "phase": "seed",
+      "wallet": 7,
+      "action": "mint 100 OFTA",
+      "hash": "8672c59bff31b53d7cbd6cf98daa46af2ffb01b65d36e97df39377a39bfb8b4a",
+      "link": "https://stellar.expert/explorer/testnet/tx/8672c59bff31b53d7cbd6cf98daa46af2ffb01b65d36e97df39377a39bfb8b4a"
+    },
+    {
+      "phase": "seed",
+      "wallet": 8,
+      "action": "mint 100 OFTA",
+      "hash": "0399a4eed1a970b7fa43b0b59372bdbf890bebe8b96da7a4e36953db03c9c63d",
+      "link": "https://stellar.expert/explorer/testnet/tx/0399a4eed1a970b7fa43b0b59372bdbf890bebe8b96da7a4e36953db03c9c63d"
+    },
+    {
+      "phase": "round1",
+      "wallet": 1,
+      "action": "send 5.0000003 OFTA -> eid 30102 (self)",
+      "amount": "5.0000003",
+      "amount_sent_ld": "50000000",
+      "guid": "0bb2b59ace7f458cb00e3a8ebcce14ce19c541390dea93734403d0b56964be29",
+      "hash": "530fcd5f7abf4baf4f7f2616b98cd0eada4cb58fda704cb46c48a104473a8210",
+      "link": "https://stellar.expert/explorer/testnet/tx/530fcd5f7abf4baf4f7f2616b98cd0eada4cb58fda704cb46c48a104473a8210"
+    },
+    {
+      "phase": "round1",
+      "wallet": 2,
+      "action": "send 5.5000003 OFTA -> eid 30102 (self)",
+      "amount": "5.5000003",
+      "amount_sent_ld": "55000000",
+      "guid": "8ebbc52f08d60530c1557029d471a8a59340cb7b84e13b27c7dbf92d1d7317c4",
+      "hash": "c1cf06d2df921b12bbdf7882c2d23ea1de518529a3d439af06862172daaf0121",
+      "link": "https://stellar.expert/explorer/testnet/tx/c1cf06d2df921b12bbdf7882c2d23ea1de518529a3d439af06862172daaf0121"
+    },
+    {
+      "phase": "round1",
+      "wallet": 3,
+      "action": "send 6.0000003 OFTA -> eid 30102 (self)",
+      "amount": "6.0000003",
+      "amount_sent_ld": "60000000",
+      "guid": "efe50cbfc70fa85be7286ac183fe32a1a3798bbae081283a5f599524907969dd",
+      "hash": "000604fd519512e44d003cfcd2e020eb1836fe8d4cf0177cffbd63eba391073d",
+      "link": "https://stellar.expert/explorer/testnet/tx/000604fd519512e44d003cfcd2e020eb1836fe8d4cf0177cffbd63eba391073d"
+    },
+    {
+      "phase": "round1",
+      "wallet": 4,
+      "action": "send 6.5000003 OFTA -> eid 30102 (self)",
+      "amount": "6.5000003",
+      "amount_sent_ld": "65000000",
+      "guid": "66dd427df774ef52e0d6c6686ec3092275f11d136d79c3c06257cb449842f7ed",
+      "hash": "14b11ab1dc0c7113cae3b54c547bb494389fa7af495e9008ece99dbc89c24789",
+      "link": "https://stellar.expert/explorer/testnet/tx/14b11ab1dc0c7113cae3b54c547bb494389fa7af495e9008ece99dbc89c24789"
+    },
+    {
+      "phase": "round1",
+      "wallet": 5,
+      "action": "send 7.0000003 OFTA -> eid 30102 (self)",
+      "amount": "7.0000003",
+      "amount_sent_ld": "70000000",
+      "guid": "797ea3af9434c239daaa058bdb0b7dba74d4e57cd7471e7dc88ea4d693fe3d59",
+      "hash": "107890a20e4c1eb62c092c142648104b8efbb028d77e5684fb1f853b5cc8d9f8",
+      "link": "https://stellar.expert/explorer/testnet/tx/107890a20e4c1eb62c092c142648104b8efbb028d77e5684fb1f853b5cc8d9f8"
+    },
+    {
+      "phase": "round1",
+      "wallet": 6,
+      "action": "send 7.5000003 OFTA -> eid 30102 (self)",
+      "amount": "7.5000003",
+      "amount_sent_ld": "75000000",
+      "guid": "67436fc4c003649d994ab776324780310939239863be7826519cb4a3941145f9",
+      "hash": "247c499f7dc4a6836e25ff687923786724d0d88c3de76b6166368b8898f69c15",
+      "link": "https://stellar.expert/explorer/testnet/tx/247c499f7dc4a6836e25ff687923786724d0d88c3de76b6166368b8898f69c15"
+    },
+    {
+      "phase": "round1",
+      "wallet": 7,
+      "action": "send 8.0000003 OFTA -> eid 30102 (self)",
+      "amount": "8.0000003",
+      "amount_sent_ld": "80000000",
+      "guid": "c0d1f8e365e8aa976509e23c586de2cca2b52f80979327cf9649239a825027f5",
+      "hash": "a18f5066f53b7282f068de7ff6e7e74e189ca12ba012ae30f3dd1bb2059a5a7e",
+      "link": "https://stellar.expert/explorer/testnet/tx/a18f5066f53b7282f068de7ff6e7e74e189ca12ba012ae30f3dd1bb2059a5a7e"
+    },
+    {
+      "phase": "round1",
+      "wallet": 8,
+      "action": "send 8.5000003 OFTA -> eid 30102 (self)",
+      "amount": "8.5000003",
+      "amount_sent_ld": "85000000",
+      "guid": "f4c94d64173fbba80a61ce288abbf71c4cfa21d0d2351ceec5a4c79e2a2a1005",
+      "hash": "c15e859d16a063ee8bed625d96c2b517bf1ed50b8de12c8fe61afbb49464d5fd",
+      "link": "https://stellar.expert/explorer/testnet/tx/c15e859d16a063ee8bed625d96c2b517bf1ed50b8de12c8fe61afbb49464d5fd"
+    },
+    {
+      "phase": "round1",
+      "wallet": 9,
+      "action": "send 9.0000003 OFTA -> eid 30102 (self)",
+      "amount": "9.0000003",
+      "amount_sent_ld": "90000000",
+      "guid": "d59513d89ce397d67132e0bc2d6ae6ffddbae9d2d0e792975cd901ee8f685c04",
+      "hash": "437ac3202ed36becc0d537283ad0f58847be5f0064c7b7060bb83d115c4d68d1",
+      "link": "https://stellar.expert/explorer/testnet/tx/437ac3202ed36becc0d537283ad0f58847be5f0064c7b7060bb83d115c4d68d1"
+    },
+    {
+      "phase": "round1",
+      "wallet": 10,
+      "action": "send 9.5000003 OFTA -> eid 30102 (self)",
+      "amount": "9.5000003",
+      "amount_sent_ld": "95000000",
+      "guid": "3bb9e60069bee0e56a475cf6c34550fdb3757de96562f104f100b4d6c34bd832",
+      "hash": "7b0e6e95a50eff421b1be5a4f079e8cd12e580ceffa2f5f14d7f41c7893a0372",
+      "link": "https://stellar.expert/explorer/testnet/tx/7b0e6e95a50eff421b1be5a4f079e8cd12e580ceffa2f5f14d7f41c7893a0372"
+    },
+    {
+      "phase": "round1",
+      "wallet": 11,
+      "action": "send 10.0000003 OFTA -> eid 30102 (self)",
+      "amount": "10.0000003",
+      "amount_sent_ld": "100000000",
+      "guid": "864d49d6d402794e859520c676c384a54ce859165d1ce576f50b93a83a79b016",
+      "hash": "c58fe8440b2d3b5ea8aea5d8afe0e81fda5af1e0e70b82e02eea21b5d4fbc278",
+      "link": "https://stellar.expert/explorer/testnet/tx/c58fe8440b2d3b5ea8aea5d8afe0e81fda5af1e0e70b82e02eea21b5d4fbc278"
+    },
+    {
+      "phase": "round1",
+      "wallet": 12,
+      "action": "send 10.5000003 OFTA -> eid 30102 (self)",
+      "amount": "10.5000003",
+      "amount_sent_ld": "105000000",
+      "guid": "c5b38ca792ebd1be5a5b3e4460133e5dbd02e478696a129517405d40a9fd07d4",
+      "hash": "3c62139d9681d57a490b5e3669832ea28ea2065f7ebc166c1129a69083dd1087",
+      "link": "https://stellar.expert/explorer/testnet/tx/3c62139d9681d57a490b5e3669832ea28ea2065f7ebc166c1129a69083dd1087"
+    },
+    {
+      "phase": "round1",
+      "wallet": 13,
+      "action": "send 11.0000003 OFTA -> eid 30102 (self)",
+      "amount": "11.0000003",
+      "amount_sent_ld": "110000000",
+      "guid": "96607596bf7134096559cfdd7ddddf0feb5b185e9d9534176bb263ab320cd2cd",
+      "hash": "268f46eeccf5755f65d455deca2eaa9679e232d3f4725e1181dc676a66cd4581",
+      "link": "https://stellar.expert/explorer/testnet/tx/268f46eeccf5755f65d455deca2eaa9679e232d3f4725e1181dc676a66cd4581"
+    },
+    {
+      "phase": "round1",
+      "wallet": 14,
+      "action": "send 11.5000003 OFTA -> eid 30102 (self)",
+      "amount": "11.5000003",
+      "amount_sent_ld": "115000000",
+      "guid": "16acbf3149acd0d17df5463f3e4bd7123802335bca62c3a786a667cfefd8ef05",
+      "hash": "392557fab55662f35b88f23b75353e9a340e2129ed8ca7e71dd772ec96138b62",
+      "link": "https://stellar.expert/explorer/testnet/tx/392557fab55662f35b88f23b75353e9a340e2129ed8ca7e71dd772ec96138b62"
+    },
+    {
+      "phase": "round1",
+      "wallet": 15,
+      "action": "send 12.0000003 OFTA -> eid 30102 (self)",
+      "amount": "12.0000003",
+      "amount_sent_ld": "120000000",
+      "guid": "bfbfd874c9e2903cb42d438e8c0687791f53ee3cf73a9a75ae6a5d1444b2fed1",
+      "hash": "0cb1c7ba057a76dc4e52c3bf0a00c0d917112d130960f1ffa482f72a0a623e33",
+      "link": "https://stellar.expert/explorer/testnet/tx/0cb1c7ba057a76dc4e52c3bf0a00c0d917112d130960f1ffa482f72a0a623e33"
+    },
+    {
+      "phase": "round1",
+      "wallet": 16,
+      "action": "send 12.5000003 OFTA -> eid 30102 (self)",
+      "amount": "12.5000003",
+      "amount_sent_ld": "125000000",
+      "guid": "c1db94b55f581cafd66df06fda654523e3633f8475ebc06549a62e56215b918c",
+      "hash": "bba226854ad7db2392fb3d94c9c04f3411b33b8d1b73cfd1846731c82b738a8d",
+      "link": "https://stellar.expert/explorer/testnet/tx/bba226854ad7db2392fb3d94c9c04f3411b33b8d1b73cfd1846731c82b738a8d"
+    },
+    {
+      "phase": "round1",
+      "wallet": 17,
+      "action": "send 13.0000003 OFTA -> eid 30102 (self)",
+      "amount": "13.0000003",
+      "amount_sent_ld": "130000000",
+      "guid": "2615d33a08fe9a58cce56a616286243e72542d044c4d164d42a25c320318a9f5",
+      "hash": "c222b621790c13fdf0835103dfe1d27af715ca9ff0469f85b46a967ba8893221",
+      "link": "https://stellar.expert/explorer/testnet/tx/c222b621790c13fdf0835103dfe1d27af715ca9ff0469f85b46a967ba8893221"
+    },
+    {
+      "phase": "round1",
+      "wallet": 18,
+      "action": "send 13.5000003 OFTA -> eid 30102 (self)",
+      "amount": "13.5000003",
+      "amount_sent_ld": "135000000",
+      "guid": "968cdc3c855c23103daca7dcc05be19db64ed5885dddee7626414b82d0873c77",
+      "hash": "181e2ce0abccff3df5999b4e86f3df6b535d4d0feca372831fe1d23a8701f5c1",
+      "link": "https://stellar.expert/explorer/testnet/tx/181e2ce0abccff3df5999b4e86f3df6b535d4d0feca372831fe1d23a8701f5c1"
+    },
+    {
+      "phase": "round1",
+      "wallet": 19,
+      "action": "send 14.0000003 OFTA -> eid 30102 (self)",
+      "amount": "14.0000003",
+      "amount_sent_ld": "140000000",
+      "guid": "273b75a8a4bc48bcd5ea4a302cca1d74c283262f3cac7a451e6d9c7a8ef42f4e",
+      "hash": "67a2db29bba4166e5af3891d9a1e631b081632823780ccd91df0fd49a12348c1",
+      "link": "https://stellar.expert/explorer/testnet/tx/67a2db29bba4166e5af3891d9a1e631b081632823780ccd91df0fd49a12348c1"
+    },
+    {
+      "phase": "round1",
+      "wallet": 20,
+      "action": "send 14.5000003 OFTA -> eid 30102 (self)",
+      "amount": "14.5000003",
+      "amount_sent_ld": "145000000",
+      "guid": "cd5194b3bd7219892101f3a65d75f1f7a0bc9a8fec33f8f0e75e302cc08f60c2",
+      "hash": "d11770d2d160aba5571730b94527e0eada227f5e2aa70df8298dc9ce1ab8c51d",
+      "link": "https://stellar.expert/explorer/testnet/tx/d11770d2d160aba5571730b94527e0eada227f5e2aa70df8298dc9ce1ab8c51d"
+    },
+    {
+      "phase": "relay1",
+      "action": "deliver",
+      "guid": "821083dc14d6340cd76e6c35dcf58ab66a128a7e0b319b1bde9a384f7ea6ffc9",
+      "hash": "b77699e7c451ef5c1a2be722a6a97b2728ee376127b600b0c370e3e99353a5dc",
+      "link": "https://stellar.expert/explorer/testnet/tx/b77699e7c451ef5c1a2be722a6a97b2728ee376127b600b0c370e3e99353a5dc",
+      "delivered": true
+    },
+    {
+      "phase": "relay1",
+      "action": "deliver",
+      "guid": "3795fcbcfc9995c94ca64e27e220a2066a37bd5ffa62471fad60315f6f9ce490",
+      "hash": "3425a47436ca9db28993970b115425d8f4a63a5bdd634edad20d3e3e2cf18958",
+      "link": "https://stellar.expert/explorer/testnet/tx/3425a47436ca9db28993970b115425d8f4a63a5bdd634edad20d3e3e2cf18958",
+      "delivered": true
+    },
+    {
+      "phase": "relay1",
+      "action": "deliver",
+      "guid": "acd73c6700e12404deac69980247f6cbde2cff0ce519406da7f0e4e5bfba7644",
+      "hash": "64bdf68cb386c9beb206025c68662a8576f59b718468d44e7a3a365aa3df4eea",
+      "link": "https://stellar.expert/explorer/testnet/tx/64bdf68cb386c9beb206025c68662a8576f59b718468d44e7a3a365aa3df4eea",
+      "delivered": true
+    },
+    {
+      "phase": "relay1",
+      "action": "deliver",
+      "guid": "ae6643bec8cd694dfc09225bd654fe02bed394c67a1c4de761513d2f5ec52952",
+      "hash": "ee893a72b943b1c495f6827707d5d09dc10f8f81a4da5b4f2d1f844a5087fc6c",
+      "link": "https://stellar.expert/explorer/testnet/tx/ee893a72b943b1c495f6827707d5d09dc10f8f81a4da5b4f2d1f844a5087fc6c",
+      "delivered": true
+    },
+    {
+      "phase": "relay1",
+      "action": "deliver",
+      "guid": "e91c18908dae640b61777737772ac694d18a9801fbbf8dadfe485f15032b1cd2",
+      "hash": "16c78923e6c9ba868c09e46c5f05af7136b709fc729bfed5167715f728fbe1df",
+      "link": "https://stellar.expert/explorer/testnet/tx/16c78923e6c9ba868c09e46c5f05af7136b709fc729bfed5167715f728fbe1df",
+      "delivered": true
+    },
+    {
+      "phase": "relay1",
+      "action": "deliver",
+      "guid": "5665f804fdab170927545fc875f5f303d4531610d46eb3b283df6a55f2abec09",
+      "hash": "862dc37155324c45cfcc4406b448d263a9d81b04294fd28cf05f8abdf62383b5",
+      "link": "https://stellar.expert/explorer/testnet/tx/862dc37155324c45cfcc4406b448d263a9d81b04294fd28cf05f8abdf62383b5",
+      "delivered": true
+    },
+    {
+      "phase": "relay1",
+      "action": "deliver",
+      "guid": "0bb2b59ace7f458cb00e3a8ebcce14ce19c541390dea93734403d0b56964be29",
+      "hash": "b2a6893e10f755ac89cdd973a48e924a8a3a640ec99a3012b0fae8b7824216ef",
+      "link": "https://stellar.expert/explorer/testnet/tx/b2a6893e10f755ac89cdd973a48e924a8a3a640ec99a3012b0fae8b7824216ef",
+      "delivered": true
+    },
+    {
+      "phase": "relay1",
+      "action": "deliver",
+      "guid": "8ebbc52f08d60530c1557029d471a8a59340cb7b84e13b27c7dbf92d1d7317c4",
+      "hash": "4d7eeb05221f332b5100d69d39295ac3e3cd07d2de9b1f0bb96935b3d74e9b63",
+      "link": "https://stellar.expert/explorer/testnet/tx/4d7eeb05221f332b5100d69d39295ac3e3cd07d2de9b1f0bb96935b3d74e9b63",
+      "delivered": true
+    },
+    {
+      "phase": "relay1",
+      "action": "deliver",
+      "guid": "efe50cbfc70fa85be7286ac183fe32a1a3798bbae081283a5f599524907969dd",
+      "hash": "6011cff6352c4fa3eead7b9520753c62c432f3c52e5d4910ac134fe8bf07853f",
+      "link": "https://stellar.expert/explorer/testnet/tx/6011cff6352c4fa3eead7b9520753c62c432f3c52e5d4910ac134fe8bf07853f",
+      "delivered": true
+    },
+    {
+      "phase": "relay1",
+      "action": "deliver",
+      "guid": "66dd427df774ef52e0d6c6686ec3092275f11d136d79c3c06257cb449842f7ed",
+      "hash": "0883cf48d56331da06d777bf55206ff14c79a3fcbf141368b7dcfa66837ad70b",
+      "link": "https://stellar.expert/explorer/testnet/tx/0883cf48d56331da06d777bf55206ff14c79a3fcbf141368b7dcfa66837ad70b",
+      "delivered": true
+    },
+    {
+      "phase": "relay1",
+      "action": "deliver",
+      "guid": "797ea3af9434c239daaa058bdb0b7dba74d4e57cd7471e7dc88ea4d693fe3d59",
+      "hash": "edbb4f8145ab64f6ddee2fda12615348eb38e3ef20143f332690900b48a02836",
+      "link": "https://stellar.expert/explorer/testnet/tx/edbb4f8145ab64f6ddee2fda12615348eb38e3ef20143f332690900b48a02836",
+      "delivered": true
+    },
+    {
+      "phase": "relay1",
+      "action": "deliver",
+      "guid": "67436fc4c003649d994ab776324780310939239863be7826519cb4a3941145f9",
+      "hash": "d2eae5a10323ea2066d60f2cf643f3e2fa09d87c25213d41ae1bb5edb0c75187",
+      "link": "https://stellar.expert/explorer/testnet/tx/d2eae5a10323ea2066d60f2cf643f3e2fa09d87c25213d41ae1bb5edb0c75187",
+      "delivered": true
+    },
+    {
+      "phase": "relay1",
+      "action": "deliver",
+      "guid": "c0d1f8e365e8aa976509e23c586de2cca2b52f80979327cf9649239a825027f5",
+      "hash": "05c6cd5f85ea42ffa38714a0de4c0e0eee3eafb1ddb5a6123dcec8db684127f0",
+      "link": "https://stellar.expert/explorer/testnet/tx/05c6cd5f85ea42ffa38714a0de4c0e0eee3eafb1ddb5a6123dcec8db684127f0",
+      "delivered": true
+    },
+    {
+      "phase": "relay1",
+      "action": "deliver",
+      "guid": "f4c94d64173fbba80a61ce288abbf71c4cfa21d0d2351ceec5a4c79e2a2a1005",
+      "hash": "3600c51892eef4b29cac7c65aa1109186aedf27ac74512f550b094c9e31d1d55",
+      "link": "https://stellar.expert/explorer/testnet/tx/3600c51892eef4b29cac7c65aa1109186aedf27ac74512f550b094c9e31d1d55",
+      "delivered": true
+    },
+    {
+      "phase": "relay1",
+      "action": "deliver",
+      "guid": "d59513d89ce397d67132e0bc2d6ae6ffddbae9d2d0e792975cd901ee8f685c04",
+      "hash": "2895bf5c3dfae1b7320830af1fed1f0ec63e32ed2c668d3dab31b7af4051f46e",
+      "link": "https://stellar.expert/explorer/testnet/tx/2895bf5c3dfae1b7320830af1fed1f0ec63e32ed2c668d3dab31b7af4051f46e",
+      "delivered": true
+    },
+    {
+      "phase": "relay1",
+      "action": "deliver",
+      "guid": "3bb9e60069bee0e56a475cf6c34550fdb3757de96562f104f100b4d6c34bd832",
+      "hash": "27fb97e369d9e0ebc661beb062e23c696ac074694ee5f79d5b15e2550c510615",
+      "link": "https://stellar.expert/explorer/testnet/tx/27fb97e369d9e0ebc661beb062e23c696ac074694ee5f79d5b15e2550c510615",
+      "delivered": true
+    },
+    {
+      "phase": "relay1",
+      "action": "deliver",
+      "guid": "864d49d6d402794e859520c676c384a54ce859165d1ce576f50b93a83a79b016",
+      "hash": "7dbf239337b30aef608c9a128501a2e3d0268783d9b28c068864242013c3ce77",
+      "link": "https://stellar.expert/explorer/testnet/tx/7dbf239337b30aef608c9a128501a2e3d0268783d9b28c068864242013c3ce77",
+      "delivered": true
+    },
+    {
+      "phase": "relay1",
+      "action": "deliver",
+      "guid": "c5b38ca792ebd1be5a5b3e4460133e5dbd02e478696a129517405d40a9fd07d4",
+      "hash": "77da9e43d93029688cd4e53e6c2de5f4a3a55c831f78e0101c744f1ef4011d90",
+      "link": "https://stellar.expert/explorer/testnet/tx/77da9e43d93029688cd4e53e6c2de5f4a3a55c831f78e0101c744f1ef4011d90",
+      "delivered": true
+    },
+    {
+      "phase": "relay1",
+      "action": "deliver",
+      "guid": "96607596bf7134096559cfdd7ddddf0feb5b185e9d9534176bb263ab320cd2cd",
+      "hash": "5dcc87e94f28590c4a74ea0d36ad56f860c11baf0c1f2f4efd998d20642db898",
+      "link": "https://stellar.expert/explorer/testnet/tx/5dcc87e94f28590c4a74ea0d36ad56f860c11baf0c1f2f4efd998d20642db898",
+      "delivered": true
+    },
+    {
+      "phase": "relay1",
+      "action": "deliver",
+      "guid": "16acbf3149acd0d17df5463f3e4bd7123802335bca62c3a786a667cfefd8ef05",
+      "hash": "61d34453d97b0d7736fe8359deaac4b40f600f8451d40762965ecd42e019f3d6",
+      "link": "https://stellar.expert/explorer/testnet/tx/61d34453d97b0d7736fe8359deaac4b40f600f8451d40762965ecd42e019f3d6",
+      "delivered": true
+    },
+    {
+      "phase": "relay1",
+      "action": "deliver",
+      "guid": "bfbfd874c9e2903cb42d438e8c0687791f53ee3cf73a9a75ae6a5d1444b2fed1",
+      "hash": "51e1396aa52c01e29912b8e4acc0157d3e80d42d516b06a80437573aac9bc819",
+      "link": "https://stellar.expert/explorer/testnet/tx/51e1396aa52c01e29912b8e4acc0157d3e80d42d516b06a80437573aac9bc819",
+      "delivered": true
+    },
+    {
+      "phase": "relay1",
+      "action": "deliver",
+      "guid": "c1db94b55f581cafd66df06fda654523e3633f8475ebc06549a62e56215b918c",
+      "hash": "59ad15100b2b63de230491ec4aff81e1edaec30ccc8cb09a8f7448dc4ffe71c6",
+      "link": "https://stellar.expert/explorer/testnet/tx/59ad15100b2b63de230491ec4aff81e1edaec30ccc8cb09a8f7448dc4ffe71c6",
+      "delivered": true
+    },
+    {
+      "phase": "relay1",
+      "action": "deliver",
+      "guid": "2615d33a08fe9a58cce56a616286243e72542d044c4d164d42a25c320318a9f5",
+      "hash": "553979a953789470659b0150c870a03d5d38821d1b4eecfa6e47da5390d83913",
+      "link": "https://stellar.expert/explorer/testnet/tx/553979a953789470659b0150c870a03d5d38821d1b4eecfa6e47da5390d83913",
+      "delivered": true
+    },
+    {
+      "phase": "relay1",
+      "action": "deliver",
+      "guid": "968cdc3c855c23103daca7dcc05be19db64ed5885dddee7626414b82d0873c77",
+      "hash": "ab6e4b7a653ac923c5e82f5ba651822bc1f0a561ad0808b89c3e80902b0c73e4",
+      "link": "https://stellar.expert/explorer/testnet/tx/ab6e4b7a653ac923c5e82f5ba651822bc1f0a561ad0808b89c3e80902b0c73e4",
+      "delivered": true
+    },
+    {
+      "phase": "relay1",
+      "action": "deliver",
+      "guid": "273b75a8a4bc48bcd5ea4a302cca1d74c283262f3cac7a451e6d9c7a8ef42f4e",
+      "hash": "6fa464248ef095af95847731de7c98b0b5c479d269623f260a8dca2220d5478b",
+      "link": "https://stellar.expert/explorer/testnet/tx/6fa464248ef095af95847731de7c98b0b5c479d269623f260a8dca2220d5478b",
+      "delivered": true
+    },
+    {
+      "phase": "relay1",
+      "action": "deliver FAILED (retriable)",
+      "guid": "cd5194b3bd7219892101f3a65d75f1f7a0bc9a8fec33f8f0e75e302cc08f60c2",
+      "hash": "0e73107b5e0be59bea75a7b08a67827e48392940e134abf963feb6c968bfe0ff",
+      "link": "https://stellar.expert/explorer/testnet/tx/0e73107b5e0be59bea75a7b08a67827e48392940e134abf963feb6c968bfe0ff",
+      "delivered": false
+    },
+    {
+      "phase": "retry",
+      "wallet": 20,
+      "action": "changeTrust OFTB (late)",
+      "hash": "9d2c6b41221a407974f18f4b5fb5ad0e948852ffa6708329bd062a04c67df640",
+      "link": "https://stellar.expert/explorer/testnet/tx/9d2c6b41221a407974f18f4b5fb5ad0e948852ffa6708329bd062a04c67df640"
+    },
+    {
+      "phase": "retry",
+      "action": "deliver (retry)",
+      "guid": "cd5194b3bd7219892101f3a65d75f1f7a0bc9a8fec33f8f0e75e302cc08f60c2",
+      "hash": "66f6fb3b0a946f9c46220a2adfb7a51153622e59e4e7621eecac75d5eb05779d",
+      "link": "https://stellar.expert/explorer/testnet/tx/66f6fb3b0a946f9c46220a2adfb7a51153622e59e4e7621eecac75d5eb05779d",
+      "delivered": true
+    },
+    {
+      "phase": "round2",
+      "wallet": 1,
+      "action": "send 2.0000000 OFTB -> eid 30101 (self)",
+      "to": "GCSTTLRBIP6WYDZOZUE5SABHTQQMPI6XN3D4AP573OHIXCGGJILZYZRD",
+      "amount": "2.0000000",
+      "amount_sent_ld": "20000000",
+      "guid": "b1048182522cf4c1d6a5ee07e5cf9cf3356bd581eecdae14b96b3aa132bc62ee",
+      "hash": "adf5925844a6cd59fec38e03187b2067395ed6a6c5e10461427e4fae83612930",
+      "link": "https://stellar.expert/explorer/testnet/tx/adf5925844a6cd59fec38e03187b2067395ed6a6c5e10461427e4fae83612930"
+    },
+    {
+      "phase": "round2",
+      "wallet": 2,
+      "action": "send 2.2500000 OFTB -> eid 30101 (self)",
+      "to": "GDDJYEVJT4SF5EHZHMQN647MEKRCCC3YZH577M4OVQXFFLQVFIT5JGST",
+      "amount": "2.2500000",
+      "amount_sent_ld": "22500000",
+      "guid": "b56fb9897c913ba651b5fbabd53f353d0c01892c4e4f0217b152dad92dea7a16",
+      "hash": "ca444339ee5366cc67813ca32c040e60a048cabf4bc67dbb4eb12c19a5d05b48",
+      "link": "https://stellar.expert/explorer/testnet/tx/ca444339ee5366cc67813ca32c040e60a048cabf4bc67dbb4eb12c19a5d05b48"
+    },
+    {
+      "phase": "round2",
+      "wallet": 3,
+      "action": "send 2.5000000 OFTB -> eid 30101 (self)",
+      "to": "GCA3LFPNPG3I5V5P3LNTKAPPJKFMLNOKBKL4BRSXKCPEEZSDDRHQYVDR",
+      "amount": "2.5000000",
+      "amount_sent_ld": "25000000",
+      "guid": "1a1fda31e2d8cfbb9f137888eb6292bd1e74b94ef0af51ed6ac7cb488d3752aa",
+      "hash": "48e191c36796c5c250f2fd97d71a5f00f3900391c6df0532530c3b893b637df4",
+      "link": "https://stellar.expert/explorer/testnet/tx/48e191c36796c5c250f2fd97d71a5f00f3900391c6df0532530c3b893b637df4"
+    },
+    {
+      "phase": "round2",
+      "wallet": 4,
+      "action": "send 2.7500000 OFTB -> eid 30101 (self)",
+      "to": "GD3XOIJU2MREIYF4EVZRZNMAOSF7B33TDGZ656RB72V5PGQUZJBSGLEN",
+      "amount": "2.7500000",
+      "amount_sent_ld": "27500000",
+      "guid": "cf3e493d91d0ba219f0270aa9e372fff920c4fd86062669f40e92e474e2068e7",
+      "hash": "6b033a087de6b0b041d62386b9b1d7110676fbabb3d3b5fc1b2a3c68a682d688",
+      "link": "https://stellar.expert/explorer/testnet/tx/6b033a087de6b0b041d62386b9b1d7110676fbabb3d3b5fc1b2a3c68a682d688"
+    },
+    {
+      "phase": "round2",
+      "wallet": 5,
+      "action": "send 3.0000000 OFTB -> eid 30101 (self)",
+      "to": "GDQO7M5YBC3NINBI3AZTJ5IQCSP4GYVFVEN5Z44AC3LUNMPQUFJXR4JJ",
+      "amount": "3.0000000",
+      "amount_sent_ld": "30000000",
+      "guid": "ed8a19f5bb94cab93cc4d07e43e7a1b1a334f029d87b2aedf60044a9c4e07ef3",
+      "hash": "a511098213b5bee3ae9dbbce6913707693e8e2b3ec2656741cf37796cfad9af3",
+      "link": "https://stellar.expert/explorer/testnet/tx/a511098213b5bee3ae9dbbce6913707693e8e2b3ec2656741cf37796cfad9af3"
+    },
+    {
+      "phase": "round2",
+      "wallet": 6,
+      "action": "send 3.2500000 OFTB -> eid 30101 (self)",
+      "to": "GBV23JG7SYUL7QBC7KXSOLYW4OHILW6UNGDZ5VXQGOUYENC3DVUBHHZX",
+      "amount": "3.2500000",
+      "amount_sent_ld": "32500000",
+      "guid": "4c4769fbfd72e05bf02e53fdb93b9fd22ec443e4812f7645f766fc5b8be56670",
+      "hash": "69c79021c2960718f502acb28c380db822101eec6e975eea3af1b20b3bcfe18a",
+      "link": "https://stellar.expert/explorer/testnet/tx/69c79021c2960718f502acb28c380db822101eec6e975eea3af1b20b3bcfe18a"
+    },
+    {
+      "phase": "round2",
+      "wallet": 7,
+      "action": "send 3.5000000 OFTB -> eid 30101 (self)",
+      "to": "GASXCHWZER2OLDO2NWBMJNSI7ZHUBXOCL47Y3JUIW47PSLVGG6YBJAFI",
+      "amount": "3.5000000",
+      "amount_sent_ld": "35000000",
+      "guid": "a7407de58a4cbdb835e4dd3d011948bce931bc0296b6c64e64208d8439707873",
+      "hash": "6bfe59edaeb14604607621f9ccecd1cfe149db358e499651677f808c9ae0c537",
+      "link": "https://stellar.expert/explorer/testnet/tx/6bfe59edaeb14604607621f9ccecd1cfe149db358e499651677f808c9ae0c537"
+    },
+    {
+      "phase": "round2",
+      "wallet": 8,
+      "action": "send 3.7500000 OFTB -> eid 30101 (self)",
+      "to": "GCTLM5NZHIT2X4JLXLBKYK7PX5UPM7AQANX2RGOIJ2HZEO2KOG72A6C6",
+      "amount": "3.7500000",
+      "amount_sent_ld": "37500000",
+      "guid": "d6c2335f6652e15c05410f6f97706af4172f65c7b740212fb381fbb3ff08a71d",
+      "hash": "296eeae5a474d9037bb49e41f17debd9e6790a269e10254e14dcc4c67c86d6ea",
+      "link": "https://stellar.expert/explorer/testnet/tx/296eeae5a474d9037bb49e41f17debd9e6790a269e10254e14dcc4c67c86d6ea"
+    },
+    {
+      "phase": "round2",
+      "wallet": 9,
+      "action": "send 4.0000000 OFTB -> eid 30101 (self)",
+      "to": "GDETKFSZHY6K6FS64HV2OVKJI22KFU6LNDIHTWS3CYPKMLWLXVYLSYTP",
+      "amount": "4.0000000",
+      "amount_sent_ld": "40000000",
+      "guid": "6a82a07304f4bc155235b8a9ec3bb50a9dd53ce67d9d1160f205ed99d918ec4a",
+      "hash": "2d4e1bce457720d70cc0ed62477e3b0304cc9804bca34694f2fb82cb182f1232",
+      "link": "https://stellar.expert/explorer/testnet/tx/2d4e1bce457720d70cc0ed62477e3b0304cc9804bca34694f2fb82cb182f1232"
+    },
+    {
+      "phase": "round2",
+      "wallet": 10,
+      "action": "send 4.2500000 OFTB -> eid 30101 (self)",
+      "to": "GBL4DXJUVKPEQDIXYC2YZZUGEW4MOWKTSICOUAKEI6DVUTEAL2H2UWMY",
+      "amount": "4.2500000",
+      "amount_sent_ld": "42500000",
+      "guid": "1b7a91fdf935ac4f109def4dc1c86017c44a91f987e20b79de156ebda9f5ac20",
+      "hash": "5b2c3734c23acaa42b0b14069f835c5c3d041f1ba24286759f1a5abffc85bcdb",
+      "link": "https://stellar.expert/explorer/testnet/tx/5b2c3734c23acaa42b0b14069f835c5c3d041f1ba24286759f1a5abffc85bcdb"
+    },
+    {
+      "phase": "round2",
+      "wallet": 11,
+      "action": "send 4.5000000 OFTB -> eid 30101 (W12)",
+      "to": "GB3BQ5PRQB222AWH7DR2VX6JIJSCQTROWITCCU6XXBCQWMS43KFJPPUU",
+      "amount": "4.5000000",
+      "amount_sent_ld": "45000000",
+      "guid": "228b9926fb5c42da602d63f1f5be23156e2f594a23b766faa9d22d26122ddb92",
+      "hash": "8648b6c83069494924844f750ca572291a03b07538f0ce0f26f530cfd50277f7",
+      "link": "https://stellar.expert/explorer/testnet/tx/8648b6c83069494924844f750ca572291a03b07538f0ce0f26f530cfd50277f7"
+    },
+    {
+      "phase": "round2",
+      "wallet": 12,
+      "action": "send 4.7500000 OFTB -> eid 30101 (W13)",
+      "to": "GB3CNYZOP4FIJVOTWK5RASWJ5A72ODRE3EHYR7COXYYRCPXI3S5HU4A4",
+      "amount": "4.7500000",
+      "amount_sent_ld": "47500000",
+      "guid": "2bcbb468beb37331ab967f4e2c458f971c162e7cf05a1f62244ad72905b7f0cb",
+      "hash": "c8f67a5cb34c9208d1d498365181e0d247f6eb1af6ccb407244cac49e7b162d3",
+      "link": "https://stellar.expert/explorer/testnet/tx/c8f67a5cb34c9208d1d498365181e0d247f6eb1af6ccb407244cac49e7b162d3"
+    },
+    {
+      "phase": "round2",
+      "wallet": 13,
+      "action": "send 5.0000000 OFTB -> eid 30101 (W14)",
+      "to": "GC3P2U5VOJYCEFQNHGDRQGOESTNJJKG6BBOEAZE2HZMUP5CT7QF3XHBQ",
+      "amount": "5.0000000",
+      "amount_sent_ld": "50000000",
+      "guid": "2849bdbdc9cbaae7d25953d521930e0952c1f6d811f8eda942b1a6aec79342df",
+      "hash": "473670715068f99fb275b572bfb0c39139ed533368b5f32fd848b90dfc432519",
+      "link": "https://stellar.expert/explorer/testnet/tx/473670715068f99fb275b572bfb0c39139ed533368b5f32fd848b90dfc432519"
+    },
+    {
+      "phase": "round2",
+      "wallet": 14,
+      "action": "send 5.2500000 OFTB -> eid 30101 (W15)",
+      "to": "GCR4HV2YTCXOZ7WOT6OSSV4HWG62AJD74HFPBKAQEV6OOUTLBWHSEYRA",
+      "amount": "5.2500000",
+      "amount_sent_ld": "52500000",
+      "guid": "a420bd7635d987afbc9ccacd3f7b5946ecac342798968472f88f9c740a6d452b",
+      "hash": "7c94c00f539fdc26724f8fb304e404c1e4109c9ecc864c9969776e9fb728b88a",
+      "link": "https://stellar.expert/explorer/testnet/tx/7c94c00f539fdc26724f8fb304e404c1e4109c9ecc864c9969776e9fb728b88a"
+    },
+    {
+      "phase": "round2",
+      "wallet": 15,
+      "action": "send 5.5000000 OFTB -> eid 30101 (W16)",
+      "to": "GBC5GA4NX4QVWY6M2GAK7LRR6D4UBD4D3RCXORW2BSLGQTA3TTIPQUGS",
+      "amount": "5.5000000",
+      "amount_sent_ld": "55000000",
+      "guid": "d2d07735d8e65ee20be5812e107c23af15c7d3a5500978fee072467ab5ee07b4",
+      "hash": "e68ec24b23922b0d6c01d3b03699198bb27a638d0bc8963641e2a6862c142fb9",
+      "link": "https://stellar.expert/explorer/testnet/tx/e68ec24b23922b0d6c01d3b03699198bb27a638d0bc8963641e2a6862c142fb9"
+    },
+    {
+      "phase": "round2",
+      "wallet": 16,
+      "action": "send 5.7500000 OFTB -> eid 30101 (contract address (C…))",
+      "to": "CCAB44L3FYXLQADQ7ASKGLUCBDE6TDTKP4H2XI32NCJJC6SDVIYKA6MP",
+      "amount": "5.7500000",
+      "amount_sent_ld": "57500000",
+      "guid": "e9ce85cba543217c403b788db162f1ecd7d56452be82867a02a2f451e1d7569e",
+      "hash": "03bed66f56f24f9f82fd49e4e967eee624b1c20780cda68b516639094a91dbf5",
+      "link": "https://stellar.expert/explorer/testnet/tx/03bed66f56f24f9f82fd49e4e967eee624b1c20780cda68b516639094a91dbf5"
+    },
+    {
+      "phase": "relay2",
+      "action": "deliver",
+      "guid": "b1048182522cf4c1d6a5ee07e5cf9cf3356bd581eecdae14b96b3aa132bc62ee",
+      "hash": "26ee0940009b490ee37e9d1da28b0f5eb2430ef5e1b324e9db6da7b01ade728b",
+      "link": "https://stellar.expert/explorer/testnet/tx/26ee0940009b490ee37e9d1da28b0f5eb2430ef5e1b324e9db6da7b01ade728b",
+      "delivered": true
+    },
+    {
+      "phase": "relay2",
+      "action": "deliver",
+      "guid": "b56fb9897c913ba651b5fbabd53f353d0c01892c4e4f0217b152dad92dea7a16",
+      "hash": "225b8316355c9a0e545a0bdce41554fc89c4c9c19a946e922b69dfbd7ea12e47",
+      "link": "https://stellar.expert/explorer/testnet/tx/225b8316355c9a0e545a0bdce41554fc89c4c9c19a946e922b69dfbd7ea12e47",
+      "delivered": true
+    },
+    {
+      "phase": "relay2",
+      "action": "deliver",
+      "guid": "1a1fda31e2d8cfbb9f137888eb6292bd1e74b94ef0af51ed6ac7cb488d3752aa",
+      "hash": "3fc23175eca1614a15511344f53485b4ec62a08f7d9910a8e1f371fb6be7ed17",
+      "link": "https://stellar.expert/explorer/testnet/tx/3fc23175eca1614a15511344f53485b4ec62a08f7d9910a8e1f371fb6be7ed17",
+      "delivered": true
+    },
+    {
+      "phase": "relay2",
+      "action": "deliver",
+      "guid": "cf3e493d91d0ba219f0270aa9e372fff920c4fd86062669f40e92e474e2068e7",
+      "hash": "6b12254c27763c24c7b2a4aa1cde982e081122f3c0f89d9ae7b68e59bc57e389",
+      "link": "https://stellar.expert/explorer/testnet/tx/6b12254c27763c24c7b2a4aa1cde982e081122f3c0f89d9ae7b68e59bc57e389",
+      "delivered": true
+    },
+    {
+      "phase": "relay2",
+      "action": "deliver",
+      "guid": "ed8a19f5bb94cab93cc4d07e43e7a1b1a334f029d87b2aedf60044a9c4e07ef3",
+      "hash": "c4e5047f26d6419a809a66126cc8ac9f6759778cfa70d7931ec701d3aaa98815",
+      "link": "https://stellar.expert/explorer/testnet/tx/c4e5047f26d6419a809a66126cc8ac9f6759778cfa70d7931ec701d3aaa98815",
+      "delivered": true
+    },
+    {
+      "phase": "relay2",
+      "action": "deliver",
+      "guid": "4c4769fbfd72e05bf02e53fdb93b9fd22ec443e4812f7645f766fc5b8be56670",
+      "hash": "75767254f3bb79000b5f498471672230d7c3ee6f9efe66ff1f95cecc8fcf1e3b",
+      "link": "https://stellar.expert/explorer/testnet/tx/75767254f3bb79000b5f498471672230d7c3ee6f9efe66ff1f95cecc8fcf1e3b",
+      "delivered": true
+    },
+    {
+      "phase": "relay2",
+      "action": "deliver",
+      "guid": "a7407de58a4cbdb835e4dd3d011948bce931bc0296b6c64e64208d8439707873",
+      "hash": "504502226278a8a748d9df364f77b55cdf297999e167884917204da39f0e722a",
+      "link": "https://stellar.expert/explorer/testnet/tx/504502226278a8a748d9df364f77b55cdf297999e167884917204da39f0e722a",
+      "delivered": true
+    },
+    {
+      "phase": "relay2",
+      "action": "deliver",
+      "guid": "d6c2335f6652e15c05410f6f97706af4172f65c7b740212fb381fbb3ff08a71d",
+      "hash": "5d37a630c22b25da938061134296bc61eecf9b63cbd15ba6c3d9e0e4a7b90be2",
+      "link": "https://stellar.expert/explorer/testnet/tx/5d37a630c22b25da938061134296bc61eecf9b63cbd15ba6c3d9e0e4a7b90be2",
+      "delivered": true
+    },
+    {
+      "phase": "relay2",
+      "action": "deliver",
+      "guid": "6a82a07304f4bc155235b8a9ec3bb50a9dd53ce67d9d1160f205ed99d918ec4a",
+      "hash": "7b337f41a77ef2407d3b722676adcd18e5073f923e785586a19d6b2c4b697302",
+      "link": "https://stellar.expert/explorer/testnet/tx/7b337f41a77ef2407d3b722676adcd18e5073f923e785586a19d6b2c4b697302",
+      "delivered": true
+    },
+    {
+      "phase": "relay2",
+      "action": "deliver",
+      "guid": "1b7a91fdf935ac4f109def4dc1c86017c44a91f987e20b79de156ebda9f5ac20",
+      "hash": "08370df120262b1330ecb9f4422790a4712d58a3e7d68f0d30dc2b8f716bb677",
+      "link": "https://stellar.expert/explorer/testnet/tx/08370df120262b1330ecb9f4422790a4712d58a3e7d68f0d30dc2b8f716bb677",
+      "delivered": true
+    },
+    {
+      "phase": "relay2",
+      "action": "deliver",
+      "guid": "228b9926fb5c42da602d63f1f5be23156e2f594a23b766faa9d22d26122ddb92",
+      "hash": "b4ab14bbf9745218e91b681ffa3c47dfb2c3054ceb7b1d0c8de59ca830baaeb7",
+      "link": "https://stellar.expert/explorer/testnet/tx/b4ab14bbf9745218e91b681ffa3c47dfb2c3054ceb7b1d0c8de59ca830baaeb7",
+      "delivered": true
+    },
+    {
+      "phase": "relay2",
+      "action": "deliver",
+      "guid": "2bcbb468beb37331ab967f4e2c458f971c162e7cf05a1f62244ad72905b7f0cb",
+      "hash": "87fb0b2181f8caabf4bce8080cd0fc3980be40ddbe1db7a4702b69810c0dfe8b",
+      "link": "https://stellar.expert/explorer/testnet/tx/87fb0b2181f8caabf4bce8080cd0fc3980be40ddbe1db7a4702b69810c0dfe8b",
+      "delivered": true
+    },
+    {
+      "phase": "relay2",
+      "action": "deliver",
+      "guid": "2849bdbdc9cbaae7d25953d521930e0952c1f6d811f8eda942b1a6aec79342df",
+      "hash": "7a8c08ea39ead079b272f134724a58b46a50b757f4713cf2cd9efb338ed50159",
+      "link": "https://stellar.expert/explorer/testnet/tx/7a8c08ea39ead079b272f134724a58b46a50b757f4713cf2cd9efb338ed50159",
+      "delivered": true
+    },
+    {
+      "phase": "relay2",
+      "action": "deliver",
+      "guid": "a420bd7635d987afbc9ccacd3f7b5946ecac342798968472f88f9c740a6d452b",
+      "hash": "e9f5d38a4dfffcd171e19a5f7d2d4495b46260a68b18e6da722e7cb8b578019f",
+      "link": "https://stellar.expert/explorer/testnet/tx/e9f5d38a4dfffcd171e19a5f7d2d4495b46260a68b18e6da722e7cb8b578019f",
+      "delivered": true
+    },
+    {
+      "phase": "relay2",
+      "action": "deliver",
+      "guid": "d2d07735d8e65ee20be5812e107c23af15c7d3a5500978fee072467ab5ee07b4",
+      "hash": "5dd32642da696ff74cde5ef27fbb4e232e8fe5870d8ea820349f6aefb3145e90",
+      "link": "https://stellar.expert/explorer/testnet/tx/5dd32642da696ff74cde5ef27fbb4e232e8fe5870d8ea820349f6aefb3145e90",
+      "delivered": true
+    },
+    {
+      "phase": "relay2",
+      "action": "deliver",
+      "guid": "e9ce85cba543217c403b788db162f1ecd7d56452be82867a02a2f451e1d7569e",
+      "hash": "674d162cd62b7cab303d015ea9da49baf194a5efbbfad7bf1f7abfdcc3296ee5",
+      "link": "https://stellar.expert/explorer/testnet/tx/674d162cd62b7cab303d015ea9da49baf194a5efbbfad7bf1f7abfdcc3296ee5",
+      "delivered": true
+    }
+  ],
+  "errors_expected": [
+    {
+      "wallet": 17,
+      "amount": "0.0000005",
+      "expected_error": 5,
+      "got": 5,
+      "ok": true,
+      "why": "dust below the conversion rate: nothing would arrive, so the send is refused before any burn"
+    },
+    {
+      "wallet": 18,
+      "amount": "1.0000005",
+      "min": "1.0000005",
+      "expected_error": 3,
+      "got": 3,
+      "ok": true,
+      "why": "min amount set above the post-dust amount: slippage guard"
+    }
+  ],
+  "conservation": {
+    "minted_in_wallets_at_seed": "2556.5000000",
+    "in_flight_at_seed": "43.5000000",
+    "in_flight_packets": [
+      {
+        "guid": "821083dc14d6340cd76e6c35dcf58ab66a128a7e0b319b1bde9a384f7ea6ffc9",
+        "nonce": 1,
+        "amount": "6.0000000",
+        "delivered_tx": "b77699e7c451ef5c1a2be722a6a97b2728ee376127b600b0c370e3e99353a5dc"
+      },
+      {
+        "guid": "3795fcbcfc9995c94ca64e27e220a2066a37bd5ffa62471fad60315f6f9ce490",
+        "nonce": 2,
+        "amount": "6.5000000",
+        "delivered_tx": "3425a47436ca9db28993970b115425d8f4a63a5bdd634edad20d3e3e2cf18958"
+      },
+      {
+        "guid": "acd73c6700e12404deac69980247f6cbde2cff0ce519406da7f0e4e5bfba7644",
+        "nonce": 3,
+        "amount": "7.0000000",
+        "delivered_tx": "64bdf68cb386c9beb206025c68662a8576f59b718468d44e7a3a365aa3df4eea"
+      },
+      {
+        "guid": "ae6643bec8cd694dfc09225bd654fe02bed394c67a1c4de761513d2f5ec52952",
+        "nonce": 4,
+        "amount": "7.5000000",
+        "delivered_tx": "ee893a72b943b1c495f6827707d5d09dc10f8f81a4da5b4f2d1f844a5087fc6c"
+      },
+      {
+        "guid": "e91c18908dae640b61777737772ac694d18a9801fbbf8dadfe485f15032b1cd2",
+        "nonce": 5,
+        "amount": "8.0000000",
+        "delivered_tx": "16c78923e6c9ba868c09e46c5f05af7136b709fc729bfed5167715f728fbe1df"
+      },
+      {
+        "guid": "5665f804fdab170927545fc875f5f303d4531610d46eb3b283df6a55f2abec09",
+        "nonce": 6,
+        "amount": "8.5000000",
+        "delivered_tx": "862dc37155324c45cfcc4406b448d263a9d81b04294fd28cf05f8abdf62383b5"
+      }
+    ],
+    "total_before": "2600.0000000",
+    "wallets_after": "2594.2500000",
+    "contract_recipient": "CCAB44L3FYXLQADQ7ASKGLUCBDE6TDTKP4H2XI32NCJJC6SDVIYKA6MP",
+    "contract_recipient_balance": "5.7500000",
+    "total_after": "2600.0000000",
+    "conserved": true,
+    "note": "burns on one chain equal mints on the other, dust never leaves the sender, and value in flight (burned, not yet delivered) is counted. The six inherited packets came from an earlier run that stopped mid round 1; their amounts were read back from the mock endpoint, which keeps packets after delivery."
+  },
+  "oft_totals": {
+    "A": {
+      "sent": "238.5000000",
+      "received": "62.0000000"
+    },
+    "B": {
+      "sent": "62.0000000",
+      "received": "238.5000000"
+    }
+  },
+  "finished_at": "2026-11-23T12:13:36.161Z",
+  "duration_s": 439,
+  "tx_count": 86
+}

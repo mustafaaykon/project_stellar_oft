@@ -1,0 +1,11 @@
+make-demo: capturing cargo test -p oft
+make-demo: recorded 01-title (4.6s)
+make-demo: recorded 02-cargo-test (5.3s)
+make-demo: recorded 03-deploy (6.9s)
+make-demo: recorded 04-check-ok (7.1s)
+make-demo: recorded 05-check-broken (7.8s)
+make-demo: recorded 06-sim (7.5s)
+make-demo: recorded 07-dashboard (14.1s)
+make-demo: recorded 08-end (6.0s)
+make-demo: wrote evidence/demo/oft-testkit-demo.mp4 (59.3s) and the .srt sidecar
+exit=0

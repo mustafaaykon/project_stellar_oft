@@ -1,0 +1,23 @@
+1
+00:00:04,559 --> 00:00:09,814
+Unit tests against the mock endpoint: round trip, the dropped seventh decimal, dust, issuer, missing peer, untrusted sender, manual delivery, simulated failure and retry, pause.
+
+2
+00:00:09,814 --> 00:00:16,729
+One command deploys the MintBurn pattern to testnet: SAC, SAC Manager and set_admin, mock endpoint, OFT, MINTER grant, issuer lock. Every contract id and transaction hash is written to deploy/A.json.
+
+3
+00:00:16,729 --> 00:00:23,793
+check reads the deployed state and never submits a transaction. Peer, enforced options, issuer master weight, SAC admin, MINTER role, shared decimals, endpoint routing.
+
+4
+00:00:23,793 --> 00:00:31,589
+The same check on a deliberately broken deployment: the None peer, missing enforced options and the unlocked issuer are the faults LayerZero's docs warn about. Exit code 1 for CI.
+
+5
+00:00:31,589 --> 00:00:39,111
+20 wallets: seeded through the SAC Manager, A→B with dust removed, relayed; W20 fails without a trustline and is retried once it has one; B→A to self, neighbour and a contract address; dust and slippage rejected; conservation holds.
+
+6
+00:00:39,111 --> 00:00:53,260
+Live dashboard: both chains, the check rules re-read from testnet, the 20 wallets' balances from Horizon, every transaction linked to the explorer.

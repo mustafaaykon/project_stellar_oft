@@ -1,0 +1,74 @@
+{
+  "chain": "B",
+  "name": "Chain B (eid 30102)",
+  "network": "testnet",
+  "eid": 30102,
+  "asset_code": "OFTB",
+  "shared_decimals": 6,
+  "owner": "GCVQDAF4YXXPRSG7YXMTQWVB3F7CK7RGWIBPF2Q55V55657L6I5DC4ZZ",
+  "issuer": "GA32KW3W6CRXTCYQIMWIFSCM6AUZ3F5K37IAU77WZ6NWYEQNDM4CRWAJ",
+  "contracts": {
+    "token": "CD2EGFCSVKMOFO4LKBVXM2FD2EEC7YSR2PGPIEEKXD76LN2EFTEVMNJJ",
+    "sac_manager": "CA5SSUXHTMZYD3KFR2Y37PO3EUH6OY7PB6HR7IW3J5EFQMIUGX5GLISH",
+    "endpoint": "CDB6WBQLUCOI3U2R5BU34MSTMYIPBY7JQYSCC76RQHHKQJBD3BLSGVEN",
+    "oft": "CDUU6G66UMGY3JVTRD4KWMI7WMBTTDYKKHLMLZAMAZC5OAH577GLDLWR"
+  },
+  "wasm": {
+    "endpoint": "96831a43dce3baf536df4b16ccc502d68a694f230dde06337479caaa636f7cc0",
+    "manager": "80058bbeb2853e45655e884230c3be72a17db456d9dc9e1de2ba94d974979f80",
+    "oft": "ef0ecea1be7780beb23cec53bdf2e4e9c551aa6ae5baa34a6e1e55d7b8f27f5a"
+  },
+  "txs": [
+    {
+      "step": "deploy SAC for OFTB:GA32KW…",
+      "hash": "42f045502546c468b4057810d56945553af3005daaab9854d12014b0db636e64",
+      "link": "https://stellar.expert/explorer/testnet/tx/42f045502546c468b4057810d56945553af3005daaab9854d12014b0db636e64"
+    },
+    {
+      "step": "deploy sac-manager",
+      "hash": "9e28d2e6a8566df83849a4008fbaedc09d082f398880384104e75eadf9b977c8",
+      "link": "https://stellar.expert/explorer/testnet/tx/9e28d2e6a8566df83849a4008fbaedc09d082f398880384104e75eadf9b977c8"
+    },
+    {
+      "step": "set_admin(SAC) -> sac-manager",
+      "hash": "5b43b00da197a9b17d15237037c9069f644298292aace2faef5d56e4e9105f53",
+      "link": "https://stellar.expert/explorer/testnet/tx/5b43b00da197a9b17d15237037c9069f644298292aace2faef5d56e4e9105f53"
+    },
+    {
+      "step": "deploy mock endpoint (eid 30102)",
+      "hash": "e394e7e8e9d3a642aa0a26b2fab6e02d0faf142881adf0d055de72f5253fd58e",
+      "link": "https://stellar.expert/explorer/testnet/tx/e394e7e8e9d3a642aa0a26b2fab6e02d0faf142881adf0d055de72f5253fd58e"
+    },
+    {
+      "step": "deploy oft",
+      "hash": "d9dfed9b43552f92984758dfd24b4152b4d11209341096b9001e223f69cdfb14",
+      "link": "https://stellar.expert/explorer/testnet/tx/d9dfed9b43552f92984758dfd24b4152b4d11209341096b9001e223f69cdfb14"
+    },
+    {
+      "step": "grant MINTER -> oft",
+      "hash": "aebf87badde72480c235955e05d3ee331871a40d29234048f56a2448e61cc559",
+      "link": "https://stellar.expert/explorer/testnet/tx/aebf87badde72480c235955e05d3ee331871a40d29234048f56a2448e61cc559"
+    },
+    {
+      "step": "grant MINTER -> owner (seeding)",
+      "hash": "4fe155632a265cf64c9a15402ea73d987d1b316edaf054d7704354a401c2ebff",
+      "link": "https://stellar.expert/explorer/testnet/tx/4fe155632a265cf64c9a15402ea73d987d1b316edaf054d7704354a401c2ebff"
+    },
+    {
+      "step": "lock issuer (master weight 0)",
+      "hash": "7c5570f09304111eeb07314b0a90c465948de5bb910bc0d2a05f79f45d3a647c",
+      "link": "https://stellar.expert/explorer/testnet/tx/7c5570f09304111eeb07314b0a90c465948de5bb910bc0d2a05f79f45d3a647c"
+    }
+  ],
+  "created_at": "2026-11-23T11:55:55.377Z",
+  "endpoint_is_mock": true,
+  "issuer_locked": true,
+  "links": {
+    "token": "https://stellar.expert/explorer/testnet/contract/CD2EGFCSVKMOFO4LKBVXM2FD2EEC7YSR2PGPIEEKXD76LN2EFTEVMNJJ",
+    "sac_manager": "https://stellar.expert/explorer/testnet/contract/CA5SSUXHTMZYD3KFR2Y37PO3EUH6OY7PB6HR7IW3J5EFQMIUGX5GLISH",
+    "endpoint": "https://stellar.expert/explorer/testnet/contract/CDB6WBQLUCOI3U2R5BU34MSTMYIPBY7JQYSCC76RQHHKQJBD3BLSGVEN",
+    "oft": "https://stellar.expert/explorer/testnet/contract/CDUU6G66UMGY3JVTRD4KWMI7WMBTTDYKKHLMLZAMAZC5OAH577GLDLWR",
+    "owner": "https://stellar.expert/explorer/testnet/account/GCVQDAF4YXXPRSG7YXMTQWVB3F7CK7RGWIBPF2Q55V55657L6I5DC4ZZ",
+    "issuer": "https://stellar.expert/explorer/testnet/account/GA32KW3W6CRXTCYQIMWIFSCM6AUZ3F5K37IAU77WZ6NWYEQNDM4CRWAJ"
+  }
+}

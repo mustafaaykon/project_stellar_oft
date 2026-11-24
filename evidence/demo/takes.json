@@ -1,0 +1,34 @@
+[
+  {
+    "name": "01-title",
+    "seconds": 4.559
+  },
+  {
+    "name": "02-cargo-test",
+    "seconds": 5.255
+  },
+  {
+    "name": "03-deploy",
+    "seconds": 6.915
+  },
+  {
+    "name": "04-check-ok",
+    "seconds": 7.064
+  },
+  {
+    "name": "05-check-broken",
+    "seconds": 7.796
+  },
+  {
+    "name": "06-sim",
+    "seconds": 7.522
+  },
+  {
+    "name": "07-dashboard",
+    "seconds": 14.149
+  },
+  {
+    "name": "08-end",
+    "seconds": 6.021
+  }
+]

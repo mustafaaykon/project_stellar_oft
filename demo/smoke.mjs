@@ -1,0 +1,12 @@
+import { createServer } from "node:http"; import { readFileSync, existsSync, statSync } from "node:fs"; import { join, extname } from "node:path"; import { chromium } from "playwright";
+const DIST = join(process.cwd(), "web", "dist"); const MIME = { ".html": "text/html", ".js": "text/javascript", ".css": "text/css", ".json": "application/json" };
+const server = createServer((req, res) => { let p = join(DIST, decodeURIComponent(req.url.split("?")[0])); if (!existsSync(p) || statSync(p).isDirectory()) p = join(DIST, "index.html"); res.writeHead(200, { "content-type": MIME[extname(p)] ?? "application/octet-stream" }); res.end(readFileSync(p)); });
+await new Promise((r) => server.listen(4179, r));
+const browser = await chromium.launch(); const page = await browser.newPage({ viewport: { width: 1600, height: 1000 } });
+const errors = []; page.on("pageerror", (e) => errors.push(String(e))); page.on("console", (m) => { if (m.type() === "error") errors.push(m.text()); });
+await page.goto("http://localhost:4179/"); 
+await page.waitForFunction(() => document.querySelector("#check-BROKEN .result"), null, { timeout: 120000 }).catch((e) => errors.push("timeout: " + e.message));
+await page.screenshot({ path: "demo/work/smoke.png", fullPage: true });
+console.log("clock:", await page.textContent("#clock")); console.log("checkA:", (await page.textContent("#check-A .result")) ?? "none"); console.log("checkBROKEN:", (await page.textContent("#check-BROKEN .result")) ?? "none");
+console.log("errors:", errors.length ? errors : "none");
+await browser.close(); server.close();

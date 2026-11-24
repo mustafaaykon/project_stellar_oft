@@ -1,0 +1,102 @@
+[   0s] reusing 20 wallets from .keys/wallets.json
+[   0s] phase 1: funding via friendbot
+[   4s] phase 2: trustlines (W20 skips OFTB on purpose)
+[   5s] phase 3: owner mints 100 OFTA to each wallet through sac_manager
+[  11s]   minted to W03  7dbdf250449f…
+[  16s]   minted to W04  9305f2284bdb…
+[  22s]   minted to W05  65eac4e5c5db…
+[  26s]   minted to W06  d2e780aaf60d…
+[  32s]   minted to W07  8672c59bff31…
+[  36s]   minted to W08  0399a4eed1a9…
+[  39s]   balances after-seed: A 2556.5000000  B 0.0000000  total 2556.5000000
+[  39s] phase 4: round 1, A -> B, each wallet to itself (amounts carry a 7th-decimal stroop that must be dropped)
+[  41s]   W01 sent 5.0000003 -> burned 5.0000000  guid 0bb2b59ace7f…
+[  45s]   W02 sent 5.5000003 -> burned 5.5000000  guid 8ebbc52f08d6…
+[  51s]   W03 sent 6.0000003 -> burned 6.0000000  guid efe50cbfc70f…
+[  57s]   W04 sent 6.5000003 -> burned 6.5000000  guid 66dd427df774…
+[  61s]   W05 sent 7.0000003 -> burned 7.0000000  guid 797ea3af9434…
+[  66s]   W06 sent 7.5000003 -> burned 7.5000000  guid 67436fc4c003…
+[  72s]   W07 sent 8.0000003 -> burned 8.0000000  guid c0d1f8e365e8…
+[  76s]   W08 sent 8.5000003 -> burned 8.5000000  guid f4c94d64173f…
+[  82s]   W09 sent 9.0000003 -> burned 9.0000000  guid d59513d89ce3…
+[  86s]   W10 sent 9.5000003 -> burned 9.5000000  guid 3bb9e60069be…
+[  91s]   W11 sent 10.0000003 -> burned 10.0000000  guid 864d49d6d402…
+[  97s]   W12 sent 10.5000003 -> burned 10.5000000  guid c5b38ca792eb…
+[ 101s]   W13 sent 11.0000003 -> burned 11.0000000  guid 96607596bf71…
+[ 106s]   W14 sent 11.5000003 -> burned 11.5000000  guid 16acbf3149ac…
+[ 112s]   W15 sent 12.0000003 -> burned 12.0000000  guid bfbfd874c9e2…
+[ 116s]   W16 sent 12.5000003 -> burned 12.5000000  guid c1db94b55f58…
+[ 122s]   W17 sent 13.0000003 -> burned 13.0000000  guid 2615d33a08fe…
+[ 126s]   W18 sent 13.5000003 -> burned 13.5000000  guid 968cdc3c855c…
+[ 131s]   W19 sent 14.0000003 -> burned 14.0000000  guid 273b75a8a4bc…
+[ 137s]   W20 sent 14.5000003 -> burned 14.5000000  guid cd5194b3bd72…
+[ 137s] phase 5: relay A endpoint (expect 19 delivered, W20 fails: no trustline on chain B)
+[ 141s]   delivered 821083dc14d6340c…  tx b77699e7c451ef5c1a2be722a6a97b2728ee376127b600b0c370e3e99353a5dc
+[ 147s]   delivered 3795fcbcfc9995c9…  tx 3425a47436ca9db28993970b115425d8f4a63a5bdd634edad20d3e3e2cf18958
+[ 151s]   delivered acd73c6700e12404…  tx 64bdf68cb386c9beb206025c68662a8576f59b718468d44e7a3a365aa3df4eea
+[ 156s]   delivered ae6643bec8cd694d…  tx ee893a72b943b1c495f6827707d5d09dc10f8f81a4da5b4f2d1f844a5087fc6c
+[ 162s]   delivered e91c18908dae640b…  tx 16c78923e6c9ba868c09e46c5f05af7136b709fc729bfed5167715f728fbe1df
+[ 166s]   delivered 5665f804fdab1709…  tx 862dc37155324c45cfcc4406b448d263a9d81b04294fd28cf05f8abdf62383b5
+[ 171s]   delivered 0bb2b59ace7f458c…  tx b2a6893e10f755ac89cdd973a48e924a8a3a640ec99a3012b0fae8b7824216ef
+[ 175s]   delivered 8ebbc52f08d60530…  tx 4d7eeb05221f332b5100d69d39295ac3e3cd07d2de9b1f0bb96935b3d74e9b63
+[ 181s]   delivered efe50cbfc70fa85b…  tx 6011cff6352c4fa3eead7b9520753c62c432f3c52e5d4910ac134fe8bf07853f
+[ 187s]   delivered 66dd427df774ef52…  tx 0883cf48d56331da06d777bf55206ff14c79a3fcbf141368b7dcfa66837ad70b
+[ 191s]   delivered 797ea3af9434c239…  tx edbb4f8145ab64f6ddee2fda12615348eb38e3ef20143f332690900b48a02836
+[ 196s]   delivered 67436fc4c003649d…  tx d2eae5a10323ea2066d60f2cf643f3e2fa09d87c25213d41ae1bb5edb0c75187
+[ 202s]   delivered c0d1f8e365e8aa97…  tx 05c6cd5f85ea42ffa38714a0de4c0e0eee3eafb1ddb5a6123dcec8db684127f0
+[ 206s]   delivered f4c94d64173fbba8…  tx 3600c51892eef4b29cac7c65aa1109186aedf27ac74512f550b094c9e31d1d55
+[ 211s]   delivered d59513d89ce397d6…  tx 2895bf5c3dfae1b7320830af1fed1f0ec63e32ed2c668d3dab31b7af4051f46e
+[ 215s]   delivered 3bb9e60069bee0e5…  tx 27fb97e369d9e0ebc661beb062e23c696ac074694ee5f79d5b15e2550c510615
+[ 221s]   delivered 864d49d6d402794e…  tx 7dbf239337b30aef608c9a128501a2e3d0268783d9b28c068864242013c3ce77
+[ 227s]   delivered c5b38ca792ebd1be…  tx 77da9e43d93029688cd4e53e6c2de5f4a3a55c831f78e0101c744f1ef4011d90
+[ 231s]   delivered 96607596bf713409…  tx 5dcc87e94f28590c4a74ea0d36ad56f860c11baf0c1f2f4efd998d20642db898
+[ 236s]   delivered 16acbf3149acd0d1…  tx 61d34453d97b0d7736fe8359deaac4b40f600f8451d40762965ecd42e019f3d6
+[ 242s]   delivered bfbfd874c9e2903c…  tx 51e1396aa52c01e29912b8e4acc0157d3e80d42d516b06a80437573aac9bc819
+[ 246s]   delivered c1db94b55f581caf…  tx 59ad15100b2b63de230491ec4aff81e1edaec30ccc8cb09a8f7448dc4ffe71c6
+[ 251s]   delivered 2615d33a08fe9a58…  tx 553979a953789470659b0150c870a03d5d38821d1b4eecfa6e47da5390d83913
+[ 255s]   delivered 968cdc3c855c2310…  tx ab6e4b7a653ac923c5e82f5ba651822bc1f0a561ad0808b89c3e80902b0c73e4
+[ 261s]   delivered 273b75a8a4bc48bc…  tx 6fa464248ef095af95847731de7c98b0b5c479d269623f260a8dca2220d5478b
+[ 267s]   FAILED    cd5194b3bd721989…  tx 0e73107b5e0be59bea75a7b08a67827e48392940e134abf963feb6c968bfe0ff
+[ 267s] phase 6: W20 creates its OFTB trustline, then the pending packet is retried
+[ 276s]   delivered cd5194b3bd721989…  tx 66f6fb3b0a946f9c46220a2adfb7a51153622e59e4e7621eecac75d5eb05779d
+[ 278s]   balances after-round1: A 2361.5000000  B 238.5000000  total 2600.0000000
+[ 278s] phase 7: round 2, B -> A: W01-W10 to self, W11-W15 to the next wallet, W16 to a contract address; W17 dust and W18 slippage are rejected
+[ 282s]   W01 sent 2.0000000 back -> self
+[ 285s]   W02 sent 2.2500000 back -> self
+[ 291s]   W03 sent 2.5000000 back -> self
+[ 297s]   W04 sent 2.7500000 back -> self
+[ 301s]   W05 sent 3.0000000 back -> self
+[ 306s]   W06 sent 3.2500000 back -> self
+[ 312s]   W07 sent 3.5000000 back -> self
+[ 316s]   W08 sent 3.7500000 back -> self
+[ 321s]   W09 sent 4.0000000 back -> self
+[ 325s]   W10 sent 4.2500000 back -> self
+[ 331s]   W11 sent 4.5000000 back -> W12
+[ 337s]   W12 sent 4.7500000 back -> W13
+[ 341s]   W13 sent 5.0000000 back -> W14
+[ 346s]   W14 sent 5.2500000 back -> W15
+[ 352s]   W15 sent 5.5000000 back -> W16
+[ 356s]   W16 sent 5.7500000 back -> contract address (C…)
+[ 356s]   W17 rejected as expected: contract error #5 (ZeroAmount)
+[ 356s]   W18 rejected as expected: contract error #3 (SlippageExceeded)
+[ 356s] phase 8: relay B endpoint
+[ 361s]   delivered b1048182522cf4c1…  tx 26ee0940009b490ee37e9d1da28b0f5eb2430ef5e1b324e9db6da7b01ade728b
+[ 366s]   delivered b56fb9897c913ba6…  tx 225b8316355c9a0e545a0bdce41554fc89c4c9c19a946e922b69dfbd7ea12e47
+[ 372s]   delivered 1a1fda31e2d8cfbb…  tx 3fc23175eca1614a15511344f53485b4ec62a08f7d9910a8e1f371fb6be7ed17
+[ 376s]   delivered cf3e493d91d0ba21…  tx 6b12254c27763c24c7b2a4aa1cde982e081122f3c0f89d9ae7b68e59bc57e389
+[ 381s]   delivered ed8a19f5bb94cab9…  tx c4e5047f26d6419a809a66126cc8ac9f6759778cfa70d7931ec701d3aaa98815
+[ 385s]   delivered 4c4769fbfd72e05b…  tx 75767254f3bb79000b5f498471672230d7c3ee6f9efe66ff1f95cecc8fcf1e3b
+[ 391s]   delivered a7407de58a4cbdb8…  tx 504502226278a8a748d9df364f77b55cdf297999e167884917204da39f0e722a
+[ 397s]   delivered d6c2335f6652e15c…  tx 5d37a630c22b25da938061134296bc61eecf9b63cbd15ba6c3d9e0e4a7b90be2
+[ 401s]   delivered 6a82a07304f4bc15…  tx 7b337f41a77ef2407d3b722676adcd18e5073f923e785586a19d6b2c4b697302
+[ 406s]   delivered 1b7a91fdf935ac4f…  tx 08370df120262b1330ecb9f4422790a4712d58a3e7d68f0d30dc2b8f716bb677
+[ 412s]   delivered 228b9926fb5c42da…  tx b4ab14bbf9745218e91b681ffa3c47dfb2c3054ceb7b1d0c8de59ca830baaeb7
+[ 416s]   delivered 2bcbb468beb37331…  tx 87fb0b2181f8caabf4bce8080cd0fc3980be40ddbe1db7a4702b69810c0dfe8b
+[ 421s]   delivered 2849bdbdc9cbaae7…  tx 7a8c08ea39ead079b272f134724a58b46a50b757f4713cf2cd9efb338ed50159
+[ 425s]   delivered a420bd7635d987af…  tx e9f5d38a4dfffcd171e19a5f7d2d4495b46260a68b18e6da722e7cb8b578019f
+[ 431s]   delivered d2d07735d8e65ee2…  tx 5dd32642da696ff74cde5ef27fbb4e232e8fe5870d8ea820349f6aefb3145e90
+[ 437s]   delivered e9ce85cba543217c…  tx 674d162cd62b7cab303d015ea9da49baf194a5efbbfad7bf1f7abfdcc3296ee5
+[ 438s]   balances final: A 2417.7500000  B 176.5000000  total 2594.2500000
+[ 438s] conservation: minted 2556.5000000, after 2600.0000000 (incl. 5.7500000 at the contract recipient) -> MISMATCH
+[ 439s] wrote sim/report.json and sim/report.md (86 transactions)
+exit=0

@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>OFT Testkit</title>
+  <link rel="stylesheet" href="./src/style.css" />
+</head>
+<body>
+  <header class="top">
+    <div class="brand"><span class="dot"></span> OFT Testkit <span class="muted">· Stellar testnet · two simulated chains</span></div>
+    <div class="actions">
+      <span id="clock" class="muted"></span>
+      <button id="refresh">Refresh live data</button>
+    </div>
+  </header>
+
+  <main>
+    <section class="grid two">
+      <article class="card" id="chain-A"></article>
+      <article class="card" id="chain-B"></article>
+    </section>
+
+    <section class="card">
+      <h2>oftkit check <span class="muted">live, read-only</span></h2>
+      <p class="muted">Each rule is read from chain state through RPC simulation and Horizon. Nothing is submitted.</p>
+      <div class="grid two">
+        <div><h3>Chain A (correct)</h3><div id="check-A" class="check">loading…</div></div>
+        <div><h3>BROKEN (deliberate faults)</h3><div id="check-BROKEN" class="check">loading…</div></div>
+      </div>
+    </section>
+
+    <section class="card">
+      <h2>Simulation <span class="muted" id="sim-meta"></span></h2>
+      <div id="phases" class="phases"></div>
+      <div id="conservation" class="conservation"></div>
+    </section>
+
+    <section class="card">
+      <h2>20 wallets <span class="muted">balances read live from Horizon</span></h2>
+      <table id="wallets">
+        <thead><tr><th>#</th><th>Wallet</th><th>OFTA (chain A)</th><th>OFTB (chain B)</th><th>Round 1</th><th>Round 2</th></tr></thead>
+        <tbody></tbody>
+      </table>
+    </section>
+
+    <section class="card">
+      <h2>Transaction log <span class="muted" id="tx-count"></span></h2>
+      <div class="filters" id="filters"></div>
+      <table id="txs"><thead><tr><th>Phase</th><th>Wallet</th><th>Action</th><th>Tx</th></tr></thead><tbody></tbody></table>
+    </section>
+  </main>
+  <footer class="muted">Testnet only. Mock endpoint stands in for LayerZero; no DVN verification, no fees. Contracts unaudited.</footer>
+  <script type="module" src="./src/main.js"></script>
+</body>
+</html>

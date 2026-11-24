@@ -1,0 +1,63 @@
+{
+  "chain": "BROKEN",
+  "name": "Broken (eid 30199)",
+  "network": "testnet",
+  "eid": 30199,
+  "asset_code": "OFTX",
+  "shared_decimals": 6,
+  "owner": "GCVQDAF4YXXPRSG7YXMTQWVB3F7CK7RGWIBPF2Q55V55657L6I5DC4ZZ",
+  "issuer": "GDPFLX7UYYHIIR6UR5HJDOZOE3FCSMCDZZCPDG6QEKRA3VKIKMHKOPE6",
+  "contracts": {
+    "token": "CBIJCZ3KNPKCHSR7MKCT6LKFPH4U24BDQQADJ6SBISPLWVSXCIQJQCST",
+    "sac_manager": "CCC55M2OBWRGL5WIYDQICFJIEIS5PEHBB2E4GRRS3JZTBC7ASGSVBGT4",
+    "endpoint": "CAMCKA6VI3LJA374E6S73QHXLB7QV6V7QTHNNZBYS4ZK6UKNMIFWEA3Q",
+    "oft": "CCLJWX7M5PKRKLQ6PUQEXIBAC7RTSHG7CC767SBI5ACXNDQ4AQ6C5IN3"
+  },
+  "wasm": {
+    "endpoint": "96831a43dce3baf536df4b16ccc502d68a694f230dde06337479caaa636f7cc0",
+    "manager": "80058bbeb2853e45655e884230c3be72a17db456d9dc9e1de2ba94d974979f80",
+    "oft": "ef0ecea1be7780beb23cec53bdf2e4e9c551aa6ae5baa34a6e1e55d7b8f27f5a"
+  },
+  "txs": [
+    {
+      "step": "deploy SAC for OFTX:GDPFLX…",
+      "hash": "22f59bafd24c27ac1c5495197677aa3ad7ec847d28e9881b334c27f06e755061",
+      "link": "https://stellar.expert/explorer/testnet/tx/22f59bafd24c27ac1c5495197677aa3ad7ec847d28e9881b334c27f06e755061"
+    },
+    {
+      "step": "deploy sac-manager",
+      "hash": "afdeb1ab416b65627e606636ea8453928d369d56f2ab5f6d5c6232d926de3fab",
+      "link": "https://stellar.expert/explorer/testnet/tx/afdeb1ab416b65627e606636ea8453928d369d56f2ab5f6d5c6232d926de3fab"
+    },
+    {
+      "step": "set_admin(SAC) -> sac-manager",
+      "hash": "144a2f37aac7eb39ab5e244a59bb90dc238f77bbb3641f332f9c2c818f310165",
+      "link": "https://stellar.expert/explorer/testnet/tx/144a2f37aac7eb39ab5e244a59bb90dc238f77bbb3641f332f9c2c818f310165"
+    },
+    {
+      "step": "deploy mock endpoint (eid 30199)",
+      "hash": "6d6f1c0d5d470b6d9d2ba30ec3add4ea5e5f2027853bb75f7314d0d02b75dcd5",
+      "link": "https://stellar.expert/explorer/testnet/tx/6d6f1c0d5d470b6d9d2ba30ec3add4ea5e5f2027853bb75f7314d0d02b75dcd5"
+    },
+    {
+      "step": "deploy oft",
+      "hash": "3bebbe28ba8babb04e46d661200a3e05e0f1cec98b7442616c908819c148398c",
+      "link": "https://stellar.expert/explorer/testnet/tx/3bebbe28ba8babb04e46d661200a3e05e0f1cec98b7442616c908819c148398c"
+    },
+    {
+      "step": "grant MINTER -> oft",
+      "hash": "0985f6af9671d013f7d08601284f63ddd3307c9fc76988c16038cfbd6a6bd834",
+      "link": "https://stellar.expert/explorer/testnet/tx/0985f6af9671d013f7d08601284f63ddd3307c9fc76988c16038cfbd6a6bd834"
+    }
+  ],
+  "created_at": "2026-11-23T11:56:38.336Z",
+  "endpoint_is_mock": true,
+  "links": {
+    "token": "https://stellar.expert/explorer/testnet/contract/CBIJCZ3KNPKCHSR7MKCT6LKFPH4U24BDQQADJ6SBISPLWVSXCIQJQCST",
+    "sac_manager": "https://stellar.expert/explorer/testnet/contract/CCC55M2OBWRGL5WIYDQICFJIEIS5PEHBB2E4GRRS3JZTBC7ASGSVBGT4",
+    "endpoint": "https://stellar.expert/explorer/testnet/contract/CAMCKA6VI3LJA374E6S73QHXLB7QV6V7QTHNNZBYS4ZK6UKNMIFWEA3Q",
+    "oft": "https://stellar.expert/explorer/testnet/contract/CCLJWX7M5PKRKLQ6PUQEXIBAC7RTSHG7CC767SBI5ACXNDQ4AQ6C5IN3",
+    "owner": "https://stellar.expert/explorer/testnet/account/GCVQDAF4YXXPRSG7YXMTQWVB3F7CK7RGWIBPF2Q55V55657L6I5DC4ZZ",
+    "issuer": "https://stellar.expert/explorer/testnet/account/GDPFLX7UYYHIIR6UR5HJDOZOE3FCSMCDZZCPDG6QEKRA3VKIKMHKOPE6"
+  }
+}

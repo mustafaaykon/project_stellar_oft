@@ -1,0 +1,34 @@
+# oftkit deployment config: two simulated chains on Stellar testnet, joined by mock endpoints.
+# Keys are throwaway testnet keys created on demand in .keys/ (gitignored).
+
+network = "testnet"
+shared_decimals = 6
+
+[chains.A]
+name = "Chain A (eid 30101)"
+eid = 30101
+asset_code = "OFTA"
+owner = "owner"          # shared owner key
+issuer = "issuerA"
+owner_can_mint = true    # the owner seeds the simulation wallets through the SAC Manager
+lock_issuer = true       # master weight 0 after set_admin; irreversible, testnet only
+
+[chains.B]
+name = "Chain B (eid 30102)"
+eid = 30102
+asset_code = "OFTB"
+owner = "owner"
+issuer = "issuerB"
+owner_can_mint = true
+lock_issuer = true
+
+# A deliberately broken deployment used to show what `oftkit check` catches:
+# no peer, no enforced options, issuer left unlocked.
+[chains.BROKEN]
+name = "Broken (eid 30199)"
+eid = 30199
+asset_code = "OFTX"
+owner = "owner"
+issuer = "issuerX"
+owner_can_mint = false
+lock_issuer = false

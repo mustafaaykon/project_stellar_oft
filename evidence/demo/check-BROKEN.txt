@@ -1,0 +1,16 @@
+oftkit check  CCLJWX7M5PKRKLQ6PUQEXIBAC7RTSHG7CC767SBI5ACXNDQ4AQ6C5IN3  (testnet)
+  token CBIJCZ3KNPKCHSR7MKCT6LKFPH4U24BDQQADJ6SBISPLWVSXCIQJQCST
+  sac_manager CCC55M2OBWRGL5WIYDQICFJIEIS5PEHBB2E4GRRS3JZTBC7ASGSVBGT4
+  endpoint CAMCKA6VI3LJA374E6S73QHXLB7QV6V7QTHNNZBYS4ZK6UKNMIFWEA3Q
+
+  FAIL  peer[30102] set                        peer is None (the stellar-cli 25.1.0 Option<BytesN<32>> footgun looks exactly like this)
+  FAIL  enforced_options[30102, SEND] present  none set; sends to this remote carry no executor options
+  FAIL  issuer master weight = 0               issuer GDPFLX7UYYHIIR6UR5HJDOZOE3FCSMCDZZCPDG6QEKRA3VKIKMHKOPE6 master weight 1 (the RBAC model can be bypassed by the issuer key)
+  PASS  SAC admin = sac_manager                admin CCC55M2OBWRGL5WIYDQICFJIEIS5PEHBB2E4GRRS3JZTBC7ASGSVBGT4
+  PASS  MINTER role granted to oft             sac_manager.has_role(MINTER, oft) = true
+  PASS  shared decimals                        shared 6, local 7, expected 6 (conversion rate 10^1; this value cannot be changed after deployment)
+  INFO  sac_manager paused                     not paused
+  FAIL  endpoint remote[30102] registered      no endpoint registered for this eid; nothing can be delivered there
+  INFO  endpoint                               endpoint CAMCKA6VI3LJA374E6S73QHXLB7QV6V7QTHNNZBYS4ZK6UKNMIFWEA3Q (mock, eid 30199, delivery mode Auto, 0 pending)
+
+  result: FAIL (4 failing rules)

@@ -1,0 +1,45 @@
+{
+  "txs": [
+    {
+      "step": "endpoint A: set_remote(30102)",
+      "hash": "cc53b4d28866549aead63a51aef2ac1bf33dbdb31b3e76b5b17e8945d2c1510e",
+      "link": "https://stellar.expert/explorer/testnet/tx/cc53b4d28866549aead63a51aef2ac1bf33dbdb31b3e76b5b17e8945d2c1510e"
+    },
+    {
+      "step": "endpoint A: delivery mode 1",
+      "hash": "e1c4ce8ccace5aa1f7e7e3e868a9bf642ba3205ad0e2f12a1552d191612cd0c5",
+      "link": "https://stellar.expert/explorer/testnet/tx/e1c4ce8ccace5aa1f7e7e3e868a9bf642ba3205ad0e2f12a1552d191612cd0c5"
+    },
+    {
+      "step": "endpoint B: set_remote(30101)",
+      "hash": "ff881d141940b22f6f363dc9a56d36bf2c66a964a7763ff1620b8002b288314e",
+      "link": "https://stellar.expert/explorer/testnet/tx/ff881d141940b22f6f363dc9a56d36bf2c66a964a7763ff1620b8002b288314e"
+    },
+    {
+      "step": "endpoint B: delivery mode 1",
+      "hash": "5b3e43b8c5794f18fc10eb028d5a31e7e9c3a47556b8f09a28dd0a618735031b",
+      "link": "https://stellar.expert/explorer/testnet/tx/5b3e43b8c5794f18fc10eb028d5a31e7e9c3a47556b8f09a28dd0a618735031b"
+    },
+    {
+      "step": "oft A: set_peer(30102, CDUU6G66…)",
+      "hash": "62a7ae16e945691428eea7f614bb640ad49b9f0b2b707da200bc604aa0d788a0",
+      "link": "https://stellar.expert/explorer/testnet/tx/62a7ae16e945691428eea7f614bb640ad49b9f0b2b707da200bc604aa0d788a0"
+    },
+    {
+      "step": "oft B: set_peer(30101, CAQ7WUFI…)",
+      "hash": "3fc5823d7363186c707019df3d8c8a35b23147440f4c02f589140e5cdd2dc807",
+      "link": "https://stellar.expert/explorer/testnet/tx/3fc5823d7363186c707019df3d8c8a35b23147440f4c02f589140e5cdd2dc807"
+    },
+    {
+      "step": "oft A: set_enforced_options(30102, SEND)",
+      "hash": "19ccfdc16768432a06d3a534231ad55a17ecc9d52d99a4ff1a603b43746c17d8",
+      "link": "https://stellar.expert/explorer/testnet/tx/19ccfdc16768432a06d3a534231ad55a17ecc9d52d99a4ff1a603b43746c17d8"
+    },
+    {
+      "step": "oft B: set_enforced_options(30101, SEND)",
+      "hash": "117de13f7fda6bb4f816bce9321dfb0bb08046344f4c00e17d6e99836b3c68fd",
+      "link": "https://stellar.expert/explorer/testnet/tx/117de13f7fda6bb4f816bce9321dfb0bb08046344f4c00e17d6e99836b3c68fd"
+    }
+  ],
+  "options": "0003010011010000000000000000000000000000c350"
+}

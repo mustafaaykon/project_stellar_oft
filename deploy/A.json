@@ -1,0 +1,89 @@
+{
+  "chain": "A",
+  "name": "Chain A (eid 30101)",
+  "network": "testnet",
+  "eid": 30101,
+  "asset_code": "OFTA",
+  "shared_decimals": 6,
+  "owner": "GCVQDAF4YXXPRSG7YXMTQWVB3F7CK7RGWIBPF2Q55V55657L6I5DC4ZZ",
+  "issuer": "GDLHWQDU6A2LB7AGO3RC3CRF5AGBYLSCLZLQDDM73PKJCWVIHFM4DIOQ",
+  "contracts": {
+    "token": "CAQH4PKFMX6WFP2GHUU2Y66YWNZX66R22VMVO256U4CPIVCNUQFUYXIL",
+    "sac_manager": "CCIQWZVAD6CVJNX4D4HHOUGLCPONPOFWKYBOJURDMFR62HSKWKGZKN33",
+    "endpoint": "CCAB44L3FYXLQADQ7ASKGLUCBDE6TDTKP4H2XI32NCJJC6SDVIYKA6MP",
+    "oft": "CAQ7WUFIWDCJ6E62FZWF46NGPZ2T36MUQO6BL3TRIWLGQII4PRX7KCS6"
+  },
+  "wasm": {
+    "endpoint": "96831a43dce3baf536df4b16ccc502d68a694f230dde06337479caaa636f7cc0",
+    "manager": "80058bbeb2853e45655e884230c3be72a17db456d9dc9e1de2ba94d974979f80",
+    "oft": "ef0ecea1be7780beb23cec53bdf2e4e9c551aa6ae5baa34a6e1e55d7b8f27f5a"
+  },
+  "txs": [
+    {
+      "step": "upload endpoint wasm",
+      "hash": "d458cbee8e976fe840b8fdbf40e6e2209d1c7b98986cb521230150c4a60dfefe",
+      "link": "https://stellar.expert/explorer/testnet/tx/d458cbee8e976fe840b8fdbf40e6e2209d1c7b98986cb521230150c4a60dfefe"
+    },
+    {
+      "step": "upload manager wasm",
+      "hash": "f7321e0732a54a3b4d41992a923d3b747cd6d9dc96846e5d5861d876c67b96d3",
+      "link": "https://stellar.expert/explorer/testnet/tx/f7321e0732a54a3b4d41992a923d3b747cd6d9dc96846e5d5861d876c67b96d3"
+    },
+    {
+      "step": "upload oft wasm",
+      "hash": "f89dab89ff60c48831cdae0cea7e3849dd2ed6f74640b219fd18d0b90b66cfed",
+      "link": "https://stellar.expert/explorer/testnet/tx/f89dab89ff60c48831cdae0cea7e3849dd2ed6f74640b219fd18d0b90b66cfed"
+    },
+    {
+      "step": "deploy SAC for OFTA:GDLHWQ…",
+      "hash": "0906f6301c439cd3d5cb91dabb7b42aefc72bd319124037eaf61bc1cf39ebe0c",
+      "link": "https://stellar.expert/explorer/testnet/tx/0906f6301c439cd3d5cb91dabb7b42aefc72bd319124037eaf61bc1cf39ebe0c"
+    },
+    {
+      "step": "deploy sac-manager",
+      "hash": "ce86fde4bc47a56211d67332f03f0cb6b9e0afad51a7bd20852e3e400fc17bac",
+      "link": "https://stellar.expert/explorer/testnet/tx/ce86fde4bc47a56211d67332f03f0cb6b9e0afad51a7bd20852e3e400fc17bac"
+    },
+    {
+      "step": "set_admin(SAC) -> sac-manager",
+      "hash": "fe4150d799165e11a96f4efb6f05f1e988c8ef257bcad421e8a9f6fe81435f6f",
+      "link": "https://stellar.expert/explorer/testnet/tx/fe4150d799165e11a96f4efb6f05f1e988c8ef257bcad421e8a9f6fe81435f6f"
+    },
+    {
+      "step": "deploy mock endpoint (eid 30101)",
+      "hash": "d0703e8524fd90055276055a9a7d2883d82e23cbbe912d690552f199334a5b23",
+      "link": "https://stellar.expert/explorer/testnet/tx/d0703e8524fd90055276055a9a7d2883d82e23cbbe912d690552f199334a5b23"
+    },
+    {
+      "step": "deploy oft",
+      "hash": "1df07bf103e02a48af03c4c3435eedc043eec7a345e211abce9cc039c7c6ba8a",
+      "link": "https://stellar.expert/explorer/testnet/tx/1df07bf103e02a48af03c4c3435eedc043eec7a345e211abce9cc039c7c6ba8a"
+    },
+    {
+      "step": "grant MINTER -> oft",
+      "hash": "6c17c9b52a8ae08e2be9d16cc95ad5362f32dcc973b4c7a3ef9c27a9d31494b4",
+      "link": "https://stellar.expert/explorer/testnet/tx/6c17c9b52a8ae08e2be9d16cc95ad5362f32dcc973b4c7a3ef9c27a9d31494b4"
+    },
+    {
+      "step": "grant MINTER -> owner (seeding)",
+      "hash": "99a6564ac35b285071c4cacf5181754ec1f51d0e521b69ebe50ec9361f5ea562",
+      "link": "https://stellar.expert/explorer/testnet/tx/99a6564ac35b285071c4cacf5181754ec1f51d0e521b69ebe50ec9361f5ea562"
+    },
+    {
+      "step": "lock issuer (master weight 0)",
+      "hash": "b44e734ecb688f4985b5d756d23c8a58ae38e43e6f4842d6c0d91be1f726b7e1",
+      "link": "https://stellar.expert/explorer/testnet/tx/b44e734ecb688f4985b5d756d23c8a58ae38e43e6f4842d6c0d91be1f726b7e1"
+    }
+  ],
+  "created_at": "2026-11-23T11:54:42.678Z",
+  "endpoint_is_mock": true,
+  "issuer_locked": true,
+  "links": {
+    "token": "https://stellar.expert/explorer/testnet/contract/CAQH4PKFMX6WFP2GHUU2Y66YWNZX66R22VMVO256U4CPIVCNUQFUYXIL",
+    "sac_manager": "https://stellar.expert/explorer/testnet/contract/CCIQWZVAD6CVJNX4D4HHOUGLCPONPOFWKYBOJURDMFR62HSKWKGZKN33",
+    "endpoint": "https://stellar.expert/explorer/testnet/contract/CCAB44L3FYXLQADQ7ASKGLUCBDE6TDTKP4H2XI32NCJJC6SDVIYKA6MP",
+    "oft": "https://stellar.expert/explorer/testnet/contract/CAQ7WUFIWDCJ6E62FZWF46NGPZ2T36MUQO6BL3TRIWLGQII4PRX7KCS6",
+    "owner": "https://stellar.expert/explorer/testnet/account/GCVQDAF4YXXPRSG7YXMTQWVB3F7CK7RGWIBPF2Q55V55657L6I5DC4ZZ",
+    "issuer": "https://stellar.expert/explorer/testnet/account/GDLHWQDU6A2LB7AGO3RC3CRF5AGBYLSCLZLQDDM73PKJCWVIHFM4DIOQ"
+  }
+}

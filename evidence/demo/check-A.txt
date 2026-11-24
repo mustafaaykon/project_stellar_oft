@@ -1,0 +1,16 @@
+oftkit check  CAQ7WUFIWDCJ6E62FZWF46NGPZ2T36MUQO6BL3TRIWLGQII4PRX7KCS6  (testnet)
+  token CAQH4PKFMX6WFP2GHUU2Y66YWNZX66R22VMVO256U4CPIVCNUQFUYXIL
+  sac_manager CCIQWZVAD6CVJNX4D4HHOUGLCPONPOFWKYBOJURDMFR62HSKWKGZKN33
+  endpoint CCAB44L3FYXLQADQ7ASKGLUCBDE6TDTKP4H2XI32NCJJC6SDVIYKA6MP
+
+  PASS  peer[30102] set                        peer = CDUU6G66UMGY3JVTRD4KWMI7WMBTTDYKKHLMLZAMAZC5OAH577GLDLWR
+  PASS  enforced_options[30102, SEND] present  0x0003010011010000000000000000000000000000c350
+  PASS  issuer master weight = 0               issuer GDLHWQDU6A2LB7AGO3RC3CRF5AGBYLSCLZLQDDM73PKJCWVIHFM4DIOQ master weight 0
+  PASS  SAC admin = sac_manager                admin CCIQWZVAD6CVJNX4D4HHOUGLCPONPOFWKYBOJURDMFR62HSKWKGZKN33
+  PASS  MINTER role granted to oft             sac_manager.has_role(MINTER, oft) = true
+  PASS  shared decimals                        shared 6, local 7, expected 6 (conversion rate 10^1; this value cannot be changed after deployment)
+  INFO  sac_manager paused                     not paused
+  PASS  endpoint remote[30102] registered      -> CDB6WBQLUCOI3U2R5BU34MSTMYIPBY7JQYSCC76RQHHKQJBD3BLSGVEN
+  INFO  endpoint                               endpoint CCAB44L3FYXLQADQ7ASKGLUCBDE6TDTKP4H2XI32NCJJC6SDVIYKA6MP (mock, eid 30101, delivery mode Manual, 0 pending)
+
+  result: PASS (no failing rules)
